@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@500;600;700&family=JetBrains+Mono:wght@400;600&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700&display=swap");
+
+:root {
+  --ld-ink: #201915;
+  --ld-muted: #665a52;
+  --ld-accent: #b45309;
+  --ld-rust: #9a3412;
+  --ld-paper: #f6f1e9;
+  --ld-panel: rgba(255, 251, 245, 0.72);
+  --ld-panel-hot: rgba(255, 247, 237, 0.9);
+  --ld-border: rgba(120, 53, 15, 0.16);
+  --ld-shadow: 0 22px 64px rgba(120, 53, 15, 0.12);
+}
+
+#slidev {
+  font-family: "IBM Plex Sans", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  color: var(--ld-ink);
+  background: var(--ld-paper);
+}
+
+.slidev-layout {
+  background: transparent;
+  --uno: px-10 py-8 text-[1.05rem];
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3,
+.slidev-layout h4 {
+  font-family: "IBM Plex Serif", "Noto Serif SC", "Songti SC", "STSong", serif;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+
+.slidev-layout p,
+.slidev-layout li,
+.slidev-layout div,
+.slidev-layout span {
+  line-height: 1.45;
+}
+
+.slide-shell {
+  position: relative;
+  min-height: 100%;
+}
+
+.eyebrow {
+  color: var(--ld-rust);
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.muted {
+  color: var(--ld-muted);
+}
+
+.panel,
+.step-box,
+.lane,
+.output-box {
+  background: var(--ld-panel);
+  border: 1px solid var(--ld-border);
+  box-shadow: var(--ld-shadow);
+  backdrop-filter: blur(16px);
+}
+
+.panel,
+.step-box,
+.lane,
+.output-box,
+.result-panel {
+  border-radius: 1.05rem;
+}
+
+.panel-wide {
+  max-width: 38.5rem;
+}
+
+.flow-stack {
+  width: 23.8rem;
+  margin-left: auto;
+}
+
+.step-box {
+  min-height: 6.6rem;
+  display: grid;
+  grid-template-columns: 4.2rem 1fr;
+  align-items: center;
+  gap: 1.1rem;
+  padding: 1.35rem 1.55rem;
+}
+
+.step-hot {
+  background: var(--ld-panel-hot);
+}
+
+.metric {
+  font-family: "IBM Plex Serif", "Noto Serif SC", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--ld-rust);
+  line-height: 1;
+}
+
+.mini-title {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.arrow,
+.arrow-inline {
+  color: var(--ld-accent);
+  font-weight: 700;
+  text-align: center;
+}
+
+.arrow {
+  font-size: 1.4rem;
+  margin: 0.45rem 0;
+}
+
+.arrow-inline {
+  font-size: 1.35rem;
+}
+
+.lane {
+  height: 7.35rem;
+  display: grid;
+  grid-template-columns: 3.4rem 1fr;
+  gap: 1rem;
+  align-items: center;
+  padding: 1.1rem 1.25rem;
+}
+
+.output-box {
+  height: 5.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.result-panel {
+  min-height: 19rem;
+  background: #2a211c;
+  padding: 1.55rem 1.65rem;
+  color: #fff7ed;
+}
+
+.result-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.1rem 0 1.2rem;
+}
+
+.result-list li {
+  position: relative;
+  margin-top: 0.62rem;
+  padding-left: 1.25rem;
+  font-size: 0.94rem;
+  font-weight: 700;
+}
+
+.result-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.45rem;
+  width: 0.42rem;
+  height: 0.42rem;
+  background: var(--ld-accent);
+}
+
+.result-note {
+  margin-top: 1.4rem;
+  color: #f5d7bb;
+  font-size: 0.92rem;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: var(--ld-muted);
+  font-size: 0.75rem;
+}
