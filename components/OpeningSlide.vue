@@ -13,7 +13,7 @@
     <div class="cover-content">
       <h1 class="cover-title">LinkerDog</h1>
       <p class="cover-subtitle">
-        <span class="bot-reveal">Bot</span>
+        <span class="title-reveal">Meeting</span>
         <span>for Agent</span>
       </p>
       <p class="cover-note">把传统软件重新设计成 agent 的上下文入口，从 meeting for agent 开始。</p>

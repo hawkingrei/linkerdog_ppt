@@ -2,7 +2,7 @@
 
 Slidev deck for a 3-minute LinkerDog pitch:
 
-- bot for agent
+- meeting for agent
 - agent-native meeting context
 - online meeting bot, historical video records, and IoT recording devices
 - meeting minutes, suggestions, and durable memory
