@@ -14,8 +14,20 @@ colorSchema: light
 routerMode: hash
 ---
 
+<OpeningSlide />
+
+---
+
+<ProfileSlide />
+
+---
+
 <TitleSlide />
 
 ---
 
 <MeetingSlide />
+
+---
+
+<ThanksSlide />
