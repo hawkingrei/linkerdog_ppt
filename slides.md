@@ -1,6 +1,6 @@
 ---
 theme: seriph
-title: Linkerdog Bot for Agent
+title: LinkerDog Bot for Agent
 info: |
   A simple 3-minute web deck about redesigning traditional software for agents.
 class: text-left

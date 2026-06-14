@@ -1,34 +1,24 @@
 <template>
-  <div class="slide-shell cover-slide">
-    <div class="paper-glow glow-a" />
-    <div class="paper-glow glow-b" />
+  <div class="slide-shell cover-slide brand-blue">
+    <div class="frame-line frame-line-top" />
+    <div class="frame-line frame-line-bottom" />
 
     <div class="cover-top">
-      <div class="eyebrow">Linkerdog</div>
-      <div class="slide-count">Bot for Agent · 3 min</div>
+      <div class="brand-mark brand-mark-dark">
+        <img class="brand-logo" src="/linkerdog-logo.jpg" alt="" />
+        <span>LinkerDog</span>
+      </div>
     </div>
 
     <div class="cover-content">
-      <div class="hero-kicker">Agent-native software</div>
-      <h1 class="cover-title">Bot for Agent</h1>
+      <h1 class="cover-title">LinkerDog</h1>
       <p class="cover-subtitle">
-        把传统软件重新设计成 agent 的上下文入口，从 meeting for agent 开始。
+        <span class="bot-reveal">Bot</span>
+        <span>for Agent</span>
       </p>
+      <p class="cover-note">把传统软件重新设计成 agent 的上下文入口，从 meeting for agent 开始。</p>
     </div>
 
-    <div class="cover-rail">
-      <div class="rail-item">
-        <span>01</span>
-        <strong>Live meeting</strong>
-      </div>
-      <div class="rail-item">
-        <span>02</span>
-        <strong>Historical records</strong>
-      </div>
-      <div class="rail-item">
-        <span>03</span>
-        <strong>Ambient audio</strong>
-      </div>
-    </div>
+    <img class="cover-logo" src="/linkerdog-logo.jpg" alt="" />
   </div>
 </template>

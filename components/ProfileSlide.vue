@@ -1,10 +1,14 @@
 <template>
   <div class="slide-shell">
-    <div class="paper-glow glow-b" />
     <div class="topline">
-      <div class="eyebrow">About the Speaker</div>
+      <div class="brand-mark">
+        <img class="brand-logo" src="/linkerdog-logo.jpg" alt="" />
+        <span>LinkerDog</span>
+      </div>
       <div class="slide-count">02 / 05</div>
     </div>
+    <div class="frame-line frame-line-top" />
+    <div class="frame-line frame-line-bottom" />
 
     <div class="profile-grid">
       <div class="profile-card">
@@ -16,6 +20,7 @@
       </div>
 
       <div class="profile-story">
+        <div class="section-label">About the speaker</div>
         <h2>为什么会做这个方向</h2>
         <p class="muted">
           我长期关注复杂软件系统里的上下文、协作和可维护性。Agent 时代真正需要重做的，不只是 UI，而是软件如何把事件、知识和决策持续交给 agent。
@@ -24,17 +29,17 @@
 
       <div class="profile-points">
         <div class="point-card">
-          <div class="point-label">Engineering lens</div>
+          <div class="point-label">01</div>
           <strong>后端、数据库、系统边界</strong>
           <p class="muted">关注可靠性、可验证执行和长期演进。</p>
         </div>
         <div class="point-card">
-          <div class="point-label">Agent lens</div>
+          <div class="point-label">02</div>
           <strong>Context、workflow、memory</strong>
           <p class="muted">关注 agent 如何拿到及时、结构化、可复用的信息。</p>
         </div>
         <div class="point-card">
-          <div class="point-label">Product lens</div>
+          <div class="point-label">03</div>
           <strong>先从会议开始</strong>
           <p class="muted">会议天然包含决策、行动项和组织记忆，是最适合切入的上下文源。</p>
         </div>

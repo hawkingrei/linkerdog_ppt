@@ -1,6 +1,6 @@
 # linkerdog_ppt
 
-Slidev deck for a 3-minute Linkerdog pitch:
+Slidev deck for a 3-minute LinkerDog pitch:
 
 - bot for agent
 - agent-native meeting context
