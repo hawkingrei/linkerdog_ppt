@@ -4,11 +4,12 @@
     <div class="frame-line frame-line-bottom" />
 
     <div class="thanks-content">
+      <div class="slide-count">08 / 08</div>
       <h1 class="thanks-title">THANK <span>YOU!</span></h1>
       <p class="thanks-copy">
-        Building the bridge between human meetings and AI agents
+        Meetings start the work. Slock keeps it moving.
       </p>
-      <p class="thanks-small">linkerdog.com | hello@linkerdog.com</p>
+      <p class="thanks-small">6/22 Midterm Review · Real meeting first · Golden fallback ready</p>
     </div>
   </div>
 </template>

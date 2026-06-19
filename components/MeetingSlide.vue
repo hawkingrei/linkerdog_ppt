@@ -5,7 +5,7 @@
         <img class="brand-logo" src="/linkerdog-logo.jpg" alt="" />
         <span>LinkerDog</span>
       </div>
-      <div class="slide-count">04 / 05</div>
+      <div class="slide-count">04 / 08</div>
     </div>
     <div class="frame-line frame-line-top" />
     <div class="frame-line frame-line-bottom" />
@@ -14,10 +14,10 @@
 
     <div class="pipeline">
       <div class="pipeline-side">
-        <div class="pipeline-label">Input</div>
-        <div class="pipeline-box">Zoom</div>
-        <div class="pipeline-box">Video</div>
-        <div class="pipeline-box">IoT</div>
+        <div class="pipeline-label">Join</div>
+        <div class="pipeline-box">Real Meeting</div>
+        <div class="pipeline-box">Transcript</div>
+        <div class="pipeline-box">Golden Fallback</div>
       </div>
 
       <div class="pipeline-arrow" />
@@ -25,33 +25,33 @@
       <div class="bot-node">
         <div class="bot-icon">▣</div>
         <div>
-          <h2>LinkerDog Bot</h2>
-          <p>STT · NLP · Memory</p>
+          <h2>LinkerDog Agent</h2>
+          <p>Join · Act · Remember</p>
         </div>
       </div>
 
       <div class="pipeline-arrow" />
 
       <div class="pipeline-side">
-        <div class="pipeline-label">To Agent</div>
-        <div class="pipeline-box">Slock</div>
-        <div class="pipeline-box">CRM</div>
-        <div class="pipeline-box">Notion</div>
+        <div class="pipeline-label">Memory Loop</div>
+        <div class="pipeline-box">Cited Output</div>
+        <div class="pipeline-box">Write Back</div>
+        <div class="pipeline-box">Next Meeting</div>
       </div>
     </div>
 
     <div class="value-band">
       <div class="value-item">
-        <h3>Real-time Stream</h3>
-        <p>Live meeting events pushed to agents as they happen: decisions, actions, blockers.</p>
+        <h3>1. Act now</h3>
+        <p>Meeting discussion becomes issues, PRD notes, checklists, and next actions, each linked to original words.</p>
       </div>
       <div class="value-item">
-        <h3>Meeting Minutes</h3>
-        <p>Structured summaries generated for online meetings, historical video, and room audio.</p>
+        <h3>2. Write back</h3>
+        <p>Decisions and outputs become cited team memory, not floating meeting notes or one-off tickets.</p>
       </div>
       <div class="value-item">
-        <h3>Memory Base</h3>
-        <p>Persistent searchable memory that agents can reuse across future work.</p>
+        <h3>3. Reuse next time</h3>
+        <p>The next meeting calls prior memory directly. This is the difference from meeting-to-ticket tools.</p>
       </div>
     </div>
   </div>

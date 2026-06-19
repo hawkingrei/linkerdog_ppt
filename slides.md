@@ -1,8 +1,8 @@
 ---
 theme: seriph
-title: LinkerDog Meeting for Agent
+title: LinkerDog Review Demo
 info: |
-  A simple 3-minute web deck about redesigning traditional software for agents.
+  A concise midterm review deck for LinkerDog: a Slock-incubated meeting entry for AI work execution and memory reuse.
 class: text-left
 layout: default
 lineNumbers: false
@@ -27,6 +27,18 @@ routerMode: hash
 ---
 
 <MeetingSlide />
+
+---
+
+<MarketSlide />
+
+---
+
+<AdvantageSlide />
+
+---
+
+<AskSlide />
 
 ---
 
