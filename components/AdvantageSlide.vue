@@ -30,7 +30,7 @@
         <div class="feature-card">
           <div class="feature-icon">03</div>
           <h2>Private data path</h2>
-          <p>Customer meeting data and decision memory can remain customer-owned and deploy with private Slock environments.</p>
+          <p>Customer meeting data and decision memory can remain customer-owned and be deployed within private Slock environments.</p>
         </div>
       </div>
     </div>

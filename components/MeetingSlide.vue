@@ -33,7 +33,7 @@
       <div class="pipeline-arrow" />
 
       <div class="pipeline-side">
-        <div class="pipeline-label">Reuse</div>
+        <div class="pipeline-label">Memory Loop</div>
         <div class="pipeline-box">Cited Output</div>
         <div class="pipeline-box">Write Back</div>
         <div class="pipeline-box">Next Meeting</div>

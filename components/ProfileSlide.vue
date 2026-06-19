@@ -23,7 +23,7 @@
         <div class="section-label">About the speaker</div>
         <h2>为什么会做这个方向</h2>
         <p class="muted">
-          我们在 Slock 里反复看到同一个问题：会议里产生了决定和任务，但会后要靠人手动整理、转述和追踪。LinkerDog 从会议切入，把这段工作交给 AI 和团队记忆承接。
+          我们在 Slock 里反复看到同一个问题：会议里产生了决定和任务，但会后通常需要人工整理、转述与追踪。LinkerDog 从会议切入，将这一流程交由 AI 与团队记忆承接。
         </p>
       </div>
 

@@ -16,7 +16,7 @@
         <span class="title-reveal">Meeting</span>
         <span>to Execution</span>
       </p>
-      <p class="cover-note">Slock 孵化的会议入口：让 AI 参会，边聊边出执行结果，并把团队记忆带到下一场会。</p>
+      <p class="cover-note">Slock 孵化的会议入口：让 AI 参会，在对话中生成执行结果，并把团队记忆带到下一场会。</p>
     </div>
 
     <img class="cover-logo" src="/linkerdog-logo.jpg" alt="" />
