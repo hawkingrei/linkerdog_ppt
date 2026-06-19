@@ -14,9 +14,9 @@
       <h1 class="cover-title">LinkerDog</h1>
       <p class="cover-subtitle">
         <span class="title-reveal">Meeting</span>
-        <span>for Agent</span>
+        <span>to Execution</span>
       </p>
-      <p class="cover-note">把传统软件重新设计成 agent 的上下文入口，从 meeting for agent 开始。</p>
+      <p class="cover-note">Slock 孵化的会议入口：让 AI 参会，边聊边出执行结果，并把团队记忆带到下一场会。</p>
     </div>
 
     <img class="cover-logo" src="/linkerdog-logo.jpg" alt="" />

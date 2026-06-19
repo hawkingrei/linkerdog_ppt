@@ -5,7 +5,7 @@
         <img class="brand-logo" src="/linkerdog-logo.jpg" alt="" />
         <span>LinkerDog</span>
       </div>
-      <div class="slide-count">02 / 05</div>
+      <div class="slide-count">02 / 08</div>
     </div>
     <div class="frame-line frame-line-top" />
     <div class="frame-line frame-line-bottom" />
@@ -15,7 +15,7 @@
         <div class="avatar-mark">H</div>
         <div>
           <h1 class="profile-name">Hawkingrei</h1>
-          <p class="profile-role">Backend / database engineer · agent system builder</p>
+          <p class="profile-role">Backend / database engineer · Slock / LinkerDog builder</p>
         </div>
       </div>
 
@@ -23,25 +23,25 @@
         <div class="section-label">About the speaker</div>
         <h2>为什么会做这个方向</h2>
         <p class="muted">
-          我长期关注复杂软件系统里的上下文、协作和可维护性。Agent 时代真正需要重做的，不只是 UI，而是软件如何把事件、知识和决策持续交给 agent。
+          我们在 Slock 里反复看到同一个问题：会议里产生了决定和任务，但会后要靠人手动整理、转述和追踪。LinkerDog 从会议切入，把这段工作交给 AI 和团队记忆承接。
         </p>
       </div>
 
       <div class="profile-points">
         <div class="point-card">
           <div class="point-label">01</div>
-          <strong>后端、数据库、系统边界</strong>
-          <p class="muted">关注可靠性、可验证执行和长期演进。</p>
+          <strong>Slock 孵化</strong>
+          <p class="muted">LinkerDog 不是孤立会议工具，而是 Slock 人-AI 协作生态的会议入口。</p>
         </div>
         <div class="point-card">
           <div class="point-label">02</div>
-          <strong>Context、workflow、memory</strong>
-          <p class="muted">关注 agent 如何拿到及时、结构化、可复用的信息。</p>
+          <strong>执行 + 复用</strong>
+          <p class="muted">Demo 主线是生成带引用的执行产出，并在下一场会复用团队记忆。</p>
         </div>
         <div class="point-card">
           <div class="point-label">03</div>
-          <strong>先从会议开始</strong>
-          <p class="muted">会议天然包含决策、行动项和组织记忆，是最适合切入的上下文源。</p>
+          <strong>真会议优先</strong>
+          <p class="muted">目标跑真会议版；golden 预置版保底，保证 6/22 中期 review 稳定交付。</p>
         </div>
       </div>
     </div>
