@@ -30,7 +30,7 @@
         <div class="feature-card">
           <div class="feature-icon">03</div>
           <h2>Private data path</h2>
-          <p>Customer meeting data and decision memory can remain customer-owned and be deployed within private Slock environments.</p>
+          <p>Meeting data and decision memory stay in the customer's environment; Slock is the agent runtime layer.</p>
         </div>
       </div>
     </div>
