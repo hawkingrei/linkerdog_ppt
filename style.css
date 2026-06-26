@@ -252,30 +252,30 @@
 }
 
 .profile-card {
-  min-height: 11.7rem;
+  min-height: 5.5rem;
   display: flex;
   align-items: center;
-  gap: 1.3rem;
-  padding: 1.45rem;
+  gap: 1rem;
+  padding: 1rem 1.45rem;
 }
 
 .avatar-mark {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 5.05rem;
-  height: 5.05rem;
+  width: 4rem;
+  height: 4rem;
   background: linear-gradient(135deg, #ffffff, #f2e3cd);
   border: 1px solid var(--ld-border);
-  color: #ffffff;
   color: var(--ld-ink);
-  font-size: 2.95rem;
+  font-size: 2.2rem;
   font-weight: 800;
+  border-radius: 8px;
 }
 
 .profile-name {
-  margin: 0 0 0.45rem;
-  font-size: 2.18rem;
+  margin: 0 0 0.3rem;
+  font-size: 1.7rem;
 }
 
 .profile-role {
@@ -286,13 +286,14 @@
 }
 
 .profile-story {
-  min-height: 11.7rem;
+  min-height: 5.5rem;
   padding: 1.45rem 1.75rem;
+  grid-row: span 2;
 }
 
 .profile-story h2 {
   margin: 0.45rem 0 0.75rem;
-  font-size: 1.88rem;
+  font-size: 1.6rem;
 }
 
 .profile-story p {
@@ -308,8 +309,8 @@
 }
 
 .point-card {
-  min-height: 8.15rem;
-  padding: 1rem 1.25rem;
+  min-height: 7rem;
+  padding: 0.85rem 1.1rem;
 }
 
 .point-card strong {
