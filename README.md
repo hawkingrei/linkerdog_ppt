@@ -1,11 +1,10 @@
 # linkerdog_ppt
 
-Slidev deck for the 2026-06-22 LinkerDog midterm review:
+Slidev deck for the 2026-06-28 LinkerDog roadshow:
 
-- Slock-incubated meeting entry
-- real-meeting demo target with golden fallback
-- execution output plus memory reuse
-- team memory as the north-star metric
+- Agent-native 会议室，Raft 孵化
+- AI 一等参会者，会中出卡、写回记忆
+- 9 页，中文，agent-first 主线
 
 ## Usage
 
