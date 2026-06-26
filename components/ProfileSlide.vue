@@ -18,14 +18,14 @@
           <div class="avatar-mark">H</div>
           <div>
             <h2 class="team-name">Hawkingrei</h2>
-            <p class="team-role">TiDB 内核核心研发 · LinkerDog 创造者</p>
+            <p class="team-role">TiDB 核心研发 · Top Contributor · LinkerDog 创造者</p>
           </div>
         </div>
         <div class="team-card">
           <div class="avatar-mark">W</div>
           <div>
             <h2 class="team-name">卡比卡比（jackwener）</h2>
-            <p class="team-role">Apache Doris 核心研发 · DataFusion &amp; Doris PMC · OpenCLI 作者</p>
+            <p class="team-role">OpenCLI 作者 · Apache DataFusion &amp; Doris PMC</p>
           </div>
         </div>
       </div>
