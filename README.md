@@ -2,7 +2,7 @@
 
 Slidev deck for the 2026-06-28 LinkerDog roadshow:
 
-- Agent-native 会议室，Raft 孵化
+- Agent-native 会议室
 - AI 一等参会者，会中出卡、写回记忆
 - 9 页，中文，agent-first 主线
 
