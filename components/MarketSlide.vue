@@ -11,26 +11,26 @@
     <div class="frame-line frame-line-bottom" />
 
     <div class="what-layout">
-      <h1 class="big-section-title">MARKET <span>MAP</span></h1>
+      <h1 class="big-section-title">市场 <span>MAP</span></h1>
       <p class="center-claim">
-        The red ocean is <strong>after the meeting</strong>. The open space is <span>during the meeting</span>.
+        全球 AI 会议助手 2025 约 <strong>$35 亿</strong>，年增速 <span>25.8%</span>（Grand View Research）
       </p>
 
       <div class="product-row">
         <div class="product-card product-card-primary">
-          <div class="product-number">01</div>
-          <h2>Market is already real</h2>
-          <p>Grand View Research estimates global AI meeting assistants at about $3.5B in 2025, with about 25.8% CAGR.</p>
+          <div class="product-number">TAM</div>
+          <h2>全球团队级会议 AI</h2>
+          <p>价值正从"会后纪要"迁向"会中执行"，$35 亿只是起点。</p>
         </div>
         <div class="product-card">
-          <div class="product-number">02</div>
-          <h2>Basic notes are commoditizing</h2>
-          <p>Zoom, Teams, Feishu, Otter, Fireflies, and Granola keep pushing transcription and summaries into the base layer.</p>
+          <div class="product-number">SAM</div>
+          <h2>产研团队 + 专业服务</h2>
+          <p>"会议→执行"转译成本最高、预算最厚的群人。</p>
         </div>
         <div class="product-card">
-          <div class="product-number">03</div>
-          <h2>New value is execution</h2>
-          <p>The next layer is in-meeting execution: cited output, Slock writeback, and next-meeting reuse.</p>
+          <div class="product-number">SOM</div>
+          <h2>前 100 个付费试点</h2>
+          <p>先拿"会议→执行成本最重"的团队，锚定省下的人力定价。</p>
         </div>
       </div>
     </div>

@@ -5,11 +5,11 @@
 
     <div class="thanks-content">
       <div class="slide-count">08 / 08</div>
-      <h1 class="thanks-title">THANK <span>YOU!</span></h1>
+      <h1 class="thanks-title">会上说的话，会还没散<span>就变成了线上的真东西</span></h1>
       <p class="thanks-copy">
-        Meetings start the work. Slock keeps it moving.
+        会后总结工具做不到。
       </p>
-      <p class="thanks-small">6/22 Midterm Review · Real meeting first · Golden fallback ready</p>
+      <p class="thanks-small">linkerdog.work · 6/28 路演</p>
     </div>
   </div>
 </template>

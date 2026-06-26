@@ -11,26 +11,26 @@
     <div class="frame-line frame-line-bottom" />
 
     <div class="what-layout">
-      <h1 class="big-section-title">WHY <span>US</span></h1>
+      <h1 class="big-section-title">为什么<span>是我们</span></h1>
       <p class="center-claim">
-        LinkerDog is the <strong>meeting entry</strong> incubated by <span>Slock</span>
+        护城河在上面那层：<strong>自建全栈</strong>，底座是<span>杠杆</span>不是命门
       </p>
 
       <div class="feature-row">
         <div class="feature-card">
           <div class="feature-icon">01</div>
-          <h2>Neutral meeting source</h2>
-          <p>Zoom optimizes Zoom meetings; Feishu optimizes Feishu meetings. LinkerDog works above meeting platforms.</p>
+          <h2>自建 agent-native 会议室</h2>
+          <p>AI 是一等参会者，不是挂在别人会议上的插件。体验可控。</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">02</div>
-          <h2>Slock runtime foundation</h2>
-          <p>LinkerDog is incubated by Slock, using its agent identity, task claiming, audit trail, and team memory.</p>
+          <h2>Raft 底座 + 数据不出域</h2>
+          <p>Raft 提供 agent 运行层，客户数据和付费关系都在我们这层。底座是杠杆。</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">03</div>
-          <h2>Private data path</h2>
-          <p>Meeting data and decision memory stay in the customer's environment; Slock is the agent runtime layer.</p>
+          <h2>按结果收钱</h2>
+          <p>不卖 SaaS 座位。只收"省下的人力"的钱，锚定人力小时数/月。</p>
         </div>
       </div>
     </div>

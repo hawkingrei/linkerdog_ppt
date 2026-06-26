@@ -15,33 +15,40 @@
         <div class="avatar-mark">H</div>
         <div>
           <h1 class="profile-name">Hawkingrei</h1>
-          <p class="profile-role">Backend / database engineer · Slock / LinkerDog builder</p>
+          <p class="profile-role">Agent 系统后端 / 数据库工程师 · Raft &amp; LinkerDog 创造者</p>
+        </div>
+      </div>
+      <div class="profile-card">
+        <div class="avatar-mark">W</div>
+        <div>
+          <h1 class="profile-name">WAWQAQ</h1>
+          <p class="profile-role">Apache DataFusion &amp; Doris PMC · OpenCLI 作者 · Raft 工程师</p>
         </div>
       </div>
 
       <div class="profile-story">
-        <div class="section-label">About the speaker</div>
-        <h2>为什么会做这个方向</h2>
+        <div class="section-label">Why us</div>
+        <h2>既懂底层可靠系统，又手握 agent 协作底座</h2>
         <p class="muted">
-          我们在 Slock 里反复看到同一个问题：会议里产生了决定和任务，但会后通常需要人工整理、转述与追踪。LinkerDog 从会议切入，将这一流程交由 AI 与团队记忆承接。
+          别人做会议 AI 要从零造 agent 基础设施，我们起步就站在自己的 Raft 上。底座是杠杆，护城河和收入都在我们这层。
         </p>
       </div>
 
       <div class="profile-points">
         <div class="point-card">
           <div class="point-label">01</div>
-          <strong>Slock 孵化</strong>
-          <p class="muted">LinkerDog 不是孤立会议工具，而是 Slock 人-AI 协作生态的会议入口。</p>
+          <strong>自建全栈</strong>
+          <p class="muted">Agent-native 会议室，AI 是一等参会者，不是挂在别人会议上的插件。</p>
         </div>
         <div class="point-card">
           <div class="point-label">02</div>
-          <strong>执行 + 复用</strong>
-          <p class="muted">Demo 主线是生成带引用的执行产出，并在下一场会复用团队记忆。</p>
+          <strong>跨会议记忆</strong>
+          <p class="muted">决策记忆 + 冲突拦截是模型层给不了的；数据不出域。</p>
         </div>
         <div class="point-card">
           <div class="point-label">03</div>
-          <strong>真会议优先</strong>
-          <p class="muted">目标跑真会议版；golden 预置版保底，保证 6/22 中期 review 稳定交付。</p>
+          <strong>按结果收钱</strong>
+          <p class="muted">只收"省下的人力"的钱，不卖又一个 SaaS 座位。</p>
         </div>
       </div>
     </div>

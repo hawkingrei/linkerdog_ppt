@@ -10,20 +10,20 @@
     <div class="frame-line frame-line-top" />
     <div class="frame-line frame-line-bottom" />
 
-    <h1 class="center-title">WHERE WE ARE · <span>ASK</span></h1>
+    <h1 class="center-title">现状 · <span>ASK</span></h1>
 
     <div class="value-band">
       <div class="value-item">
-        <h3>Now</h3>
-        <p>In-meeting execution loop is live: AI joins, produces cited issues / PRD / checklists, writes back to team memory, and reuses it next time.</p>
+        <h3>✅ 已通</h3>
+        <p>会中出带引用执行卡 · 写回记忆 · 真麦实时字幕（双人真房端到端）</p>
       </div>
       <div class="value-item">
-        <h3>Next</h3>
-        <p>Wire real meeting-audio capture and live STT, then add in-meeting conflict detection on top of the memory loop.</p>
+        <h3>🔜 下一步</h3>
+        <p>跨会自动复用 + 真实音频自动进会（闭环已设计）</p>
       </div>
       <div class="value-item">
-        <h3>Ask</h3>
-        <p>Within 2 weeks after 6/22, land 3 paid pilots for execution memory and reuse, priced by saved human work, not transcript minutes.</p>
+        <h3>🎯 Ask</h3>
+        <p>3 个为"执行记忆和复用"付费的试点客户。滩头：产研团队 / 专业服务。2 周启动 POC，按省下的人力收钱。</p>
       </div>
     </div>
   </div>

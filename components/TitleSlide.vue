@@ -11,26 +11,26 @@
     <div class="frame-line frame-line-bottom" />
 
     <div class="what-layout">
-      <h1 class="big-section-title">IN THE <span>MEETING</span></h1>
+      <h1 class="big-section-title">从听见<span>到执行</span></h1>
       <p class="center-claim">
-        Others turn meetings into notes. We let <strong>AI do the work</strong> as you talk.
+        从电话到 Zoom 到腾讯会议，每一代解决的都是"怎么听见"，没解决"听见之后怎么办"。
       </p>
 
       <div class="feature-row">
         <div class="feature-card">
           <div class="feature-icon">▣</div>
-          <h2>Act in the meeting</h2>
-          <p>AI joins the discussion and turns decisions into work while the meeting is still happening.</p>
+          <h2>参会理解</h2>
+          <p>AI 边开会边理解讨论、角色和决策，不是会后回看。</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">↺</div>
-          <h2>Every output cited</h2>
-          <p>Issues, PRD notes, checklists, and follow-ups link back to what was actually said.</p>
+          <h2>当场出活</h2>
+          <p>带原话引用的执行卡片——谁做什么、何时交、依据哪句话。</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">◉</div>
-          <h2>Remember & reuse</h2>
-          <p>Outputs are written to Slock team memory and reused in the next meeting. Reuse rate is the north-star metric.</p>
+          <h2>写回记忆</h2>
+          <p>决策和上下文沉淀到团队记忆，下一场会直接调出来复用。</p>
         </div>
       </div>
     </div>
