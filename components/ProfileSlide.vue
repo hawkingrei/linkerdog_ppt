@@ -28,9 +28,9 @@
 
       <div class="profile-story">
         <div class="section-label">Why us</div>
-        <h2>既懂底层可靠系统，又手握 agent 协作底座</h2>
+        <h2>既懂底层可靠系统，又有自己的 agent team 平台</h2>
         <p class="muted">
-          别人做会议 AI 要从零造 agent 基础设施，我们起步就站在自己的 agent 协作底座上。底座是杠杆，护城河和收入都在我们这层。
+          别人做会议 AI 要从零造 agent 基础设施，我们 agent team 自己就有现成的协作平台。护城河和收入都在我们这层。
         </p>
       </div>
 

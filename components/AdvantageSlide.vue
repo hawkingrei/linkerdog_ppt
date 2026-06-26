@@ -13,7 +13,7 @@
     <div class="what-layout">
       <h1 class="big-section-title">为什么<span>是我们</span></h1>
       <p class="center-claim">
-        护城河在上面那层：<strong>自建全栈</strong>，底座是<span>杠杆</span>不是命门
+        护城河在上面那层：<strong>自建全栈</strong>，平台是<span>杠杆</span>不是命门
       </p>
 
       <div class="feature-row">
@@ -24,8 +24,8 @@
         </div>
         <div class="feature-card">
           <div class="feature-icon">02</div>
-          <h2>Agent 协作底座 + 数据不出域</h2>
-          <p>Agent 协作底座提供运行层，客户数据和付费关系都在我们这层。底座是杠杆。</p>
+          <h2>Agent Team 平台 + 数据不出域</h2>
+          <p>我们 agent team 自己的协作平台，客户数据和付费关系都在我们这层。</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">03</div>
