@@ -50,11 +50,7 @@
           <strong>按结果收钱</strong>
           <p class="muted">只收"省下的人力"的钱，不卖又一个 SaaS 座位。</p>
         </div>
-        <div class="point-card">
-          <div class="point-label">🏗️</div>
-          <strong>Dogfooding</strong>
-          <p class="muted">团队天天用一群 agent + 人一起造 Linkerdog 本身——最诚实的牵引力。</p>
-        </div>
+
       </div>
     </div>
   </div>
