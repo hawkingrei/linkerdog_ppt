@@ -53,7 +53,7 @@
         <div class="point-card">
           <div class="point-label">🏗️</div>
           <strong>Dogfooding</strong>
-          <p class="muted">团队天天用 40+ agent 在 Raft 上造 Linkerdog 本身——这是最诚实的牵引力。</p>
+          <p class="muted">团队天天用一群 agent + 人一起在 Raft 上造 Linkerdog 本身——最诚实的牵引力。</p>
         </div>
       </div>
     </div>

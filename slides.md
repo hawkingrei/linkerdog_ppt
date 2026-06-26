@@ -1,8 +1,8 @@
 ---
 theme: seriph
-title: LinkerDog Review Demo
+title: LinkerDog 6/28 路演
 info: |
-  A concise midterm review deck for LinkerDog: a Slock-incubated meeting entry for AI work execution and memory reuse.
+  LinkerDog 6/28 路演 deck：agent-native 会议室，Raft 孵化，AI 参会边开会边出活。
 class: text-left
 layout: default
 lineNumbers: false
