@@ -5,7 +5,7 @@
         <img class="brand-logo" src="/linkerdog-logo.jpg" alt="" />
         <span>LinkerDog</span>
       </div>
-      <div class="slide-count">02 / 08</div>
+      <div class="slide-count">04 / 09</div>
     </div>
     <div class="frame-line frame-line-top" />
     <div class="frame-line frame-line-bottom" />
@@ -49,6 +49,11 @@
           <div class="point-label">03</div>
           <strong>按结果收钱</strong>
           <p class="muted">只收"省下的人力"的钱，不卖又一个 SaaS 座位。</p>
+        </div>
+        <div class="point-card">
+          <div class="point-label">🏗️</div>
+          <strong>Dogfooding</strong>
+          <p class="muted">团队天天用 40+ agent 在 Raft 上造 Linkerdog 本身——这是最诚实的牵引力。</p>
         </div>
       </div>
     </div>

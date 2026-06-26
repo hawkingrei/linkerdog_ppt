@@ -4,7 +4,7 @@
     <div class="frame-line frame-line-bottom" />
 
     <div class="thanks-content">
-      <div class="slide-count">08 / 08</div>
+      <div class="slide-count">09 / 09</div>
       <h1 class="thanks-title">会上说的话，会还没散<span>就变成了线上的真东西</span></h1>
       <p class="thanks-copy">
         会后总结工具做不到。

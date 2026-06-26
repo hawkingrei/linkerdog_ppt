@@ -18,11 +18,15 @@ routerMode: hash
 
 ---
 
-<ProfileSlide />
+<PainSlide />
 
 ---
 
 <TitleSlide />
+
+---
+
+<ProfileSlide />
 
 ---
 
