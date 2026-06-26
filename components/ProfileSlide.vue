@@ -21,7 +21,7 @@
       <div class="profile-card">
         <div class="avatar-mark">W</div>
         <div>
-          <h1 class="profile-name">WAWQAQ</h1>
+          <h1 class="profile-name">卡比卡比（jackwener）</h1>
           <p class="profile-role">Apache DataFusion &amp; Doris PMC · OpenCLI 作者 · Raft 工程师</p>
         </div>
       </div>
