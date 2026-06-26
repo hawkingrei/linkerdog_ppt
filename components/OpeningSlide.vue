@@ -13,7 +13,7 @@
     <div class="cover-content">
       <h1 class="cover-title">Agent 坐进会里。</h1>
       <p class="cover-subtitle">
-        <span>会还没散，活已经派好了。</span>
+        <span>一边讨论，活就做了。</span>
       </p>
       <p class="cover-note">LinkerDog · Raft 孵化 · agent-native 会议室</p>
     </div>
