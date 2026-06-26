@@ -413,6 +413,17 @@
   text-align: center;
 }
 
+.tag-next {
+  display: inline-block;
+  background: #FFD440;
+  color: var(--ld-ink);
+  border: 1px solid var(--ld-ink);
+  border-radius: var(--ld-radius);
+  padding: 0.15rem 0.5rem;
+  font-weight: 800;
+  font-size: 0.8rem;
+}
+
 .pipeline-box {
   height: 3.2rem;
   display: flex;

@@ -35,7 +35,7 @@
         <div class="pipeline-label">输出</div>
         <div class="pipeline-box">带引用执行卡</div>
         <div class="pipeline-box">写回团队记忆</div>
-        <div class="pipeline-box">下场复用 🔜</div>
+        <div class="pipeline-box">下场复用 <span class="tag-next">下一步</span></div>
       </div>
     </div>
 
