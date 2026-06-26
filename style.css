@@ -229,6 +229,67 @@
   opacity: 0.95;
 }
 
+.team-layout {
+  position: relative;
+  z-index: 1;
+  margin-top: 3.2rem;
+}
+
+.team-layout .center-title {
+  margin-bottom: 1.8rem;
+}
+
+.team-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.team-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.4rem;
+  background: var(--ld-panel);
+  border: 1px solid var(--ld-border);
+  border-radius: var(--ld-radius);
+  box-shadow: var(--ld-shadow);
+}
+
+.team-name {
+  margin: 0 0 0.3rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.team-role {
+  color: var(--ld-muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.team-moat {
+  text-align: center;
+  margin: 1.2rem 0 1.5rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--ld-ink);
+}
+
+.point-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.point-row .point-card {
+  min-height: 6rem;
+  padding: 0.9rem 1.1rem;
+}
+
 .profile-grid {
   position: relative;
   z-index: 1;
