@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<style>
+  :root{ --yellow:#FFD440; --cream:#FFFAEF; --ink:#141111; }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{ font-family:"Noto Sans CJK SC","Noto Sans",sans-serif; color:var(--ink); }
+  .page{
+    width:297mm; height:420mm; background:var(--cream);
+    padding:14mm 14mm 12mm; position:relative; overflow:hidden;
+  }
+  .frame-top{ position:absolute; top:0; left:0; right:0; height:8mm; background:var(--yellow); border-bottom:2px solid var(--ink); }
+  .content{ position:relative; margin-top:6mm; }
+  /* header */
+  .top{ display:flex; align-items:flex-start; justify-content:space-between; }
+  .brand{ border:2px solid var(--ink); padding:2mm 4mm; font-weight:700; font-size:5mm; background:#fff; box-shadow:3px 3px 0 var(--ink); }
+  .raftbadge{ background:var(--yellow); border:2px solid var(--ink); padding:2mm 5mm; font-weight:800; letter-spacing:2px; font-size:5mm; box-shadow:4px 4px 0 var(--ink); }
+  .title{ margin:9mm 0 2mm; }
+  .title h1{ font-size:24mm; line-height:0.95; font-weight:800; letter-spacing:1px; }
+  .title .en{ font-size:6mm; color:#6b6b6b; font-weight:600; margin-top:1mm; letter-spacing:1px;}
+  .lead{ font-size:5.2mm; line-height:1.5; margin:4mm 0 7mm; max-width:250mm; }
+  .lead b{ background:var(--yellow); padding:0 1mm; }
+  /* cards */
+  .card{ border:2px solid var(--ink); background:#fff; box-shadow:6px 6px 0 var(--ink); padding:7mm 7mm; margin-bottom:7mm; }
+  .card.dark{ background:var(--ink); color:var(--cream); }
+  .tag{ display:inline-block; background:var(--yellow); color:var(--ink); border:2px solid var(--ink); font-weight:800; font-size:3.6mm; padding:1mm 3mm; margin-bottom:3mm; }
+  .name{ font-size:9mm; font-weight:800; line-height:1; }
+  .role{ font-size:4.4mm; color:#444; margin:2mm 0 4mm; font-weight:600; }
+  .card.dark .role{ color:#d9d4c7; }
+  .why{ font-size:4.4mm; line-height:1.55; }
+  .why b{ font-weight:800; }
+  .caps{ display:flex; gap:4mm; margin-top:4mm; }
+  .cap{ flex:1; border:2px solid var(--ink); padding:3mm; font-size:3.7mm; line-height:1.4; background:var(--cream); color:var(--ink); }
+  .cap b{ display:block; font-weight:800; margin-bottom:1mm; }
+  .links{ font-size:4mm; margin-top:3mm; font-weight:700; }
+  .row{ display:flex; gap:7mm; }
+  .row .card{ flex:1; }
+  .band{ border:2px solid var(--ink); background:var(--yellow); box-shadow:6px 6px 0 var(--ink); padding:6mm 7mm; margin-bottom:7mm; }
+  .band h3{ font-size:5mm; font-weight:800; margin-bottom:2mm; }
+  .band p{ font-size:4.4mm; line-height:1.5; }
+  /* footer */
+  .footer{ position:absolute; left:14mm; right:14mm; bottom:10mm; border-top:2px solid var(--ink); padding-top:4mm; display:flex; justify-content:space-between; align-items:flex-end; font-size:3.8mm; }
+  .footer .logos{ font-weight:800; letter-spacing:0.5px; }
+  .footer .meta{ text-align:right; line-height:1.5; }
+  .footer .site{ font-weight:800; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="frame-top"></div>
+  <div class="content">
+    <div class="top">
+      <div class="brand">Linkerdog ｜ Raft 孵化项目</div>
+      <div class="raftbadge">RAFT</div>
+    </div>
+
+    <div class="title">
+      <h1>自我介绍</h1>
+      <div class="en">WHO WE ARE · 为什么是这群人能做成</div>
+    </div>
+    <div class="lead">做 <b>agent-native 会议</b> 的不是路过的人：我们既懂底层可靠系统，又每天活在“会议→执行”的断层里，而且亲手在建它所依托的 agent 协作底座 Raft。</div>
+
+    <div class="card dark">
+      <span class="tag">主创 · Hawkingrei</span>
+      <div class="name">Hawkingrei</div>
+      <div class="role">做 agent 系统的后端 / 数据库工程师 · Raft &amp; Linkerdog 创造者</div>
+      <div class="why">
+        长期做复杂软件系统里的<b>上下文、协作、可维护性</b> → 看清 agent 时代真正要重做的不是 UI，而是<b>软件怎么把决策和知识持续交给 agent</b>；在 Raft 里每天撞到“会议产生了决策、会后只能靠人肉承接”的断层，Linkerdog 就从这切入；手上有 agent 协作底座，能<b>从底层做 agent-native 会议</b>，别人要从零造。
+      </div>
+      <div class="caps">
+        <div class="cap"><b>后端 / 数据库 / 系统边界</b>可靠性、可验证执行、长期演进</div>
+        <div class="cap"><b>Context / workflow / memory</b>让 agent 拿到及时、结构化、可复用的信息</div>
+        <div class="cap"><b>手速</b>把想法在天级时间跑通到能演的 demo</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag">联合 · WAWQAQ（jackwener）</span>
+      <div class="name">WAWQAQ</div>
+      <div class="role">数据库 Infra 工程师 → Agent 开发工程师 · OpenCLI 作者 · Raft 工程师</div>
+      <div class="why">
+        从<b>数据库基础设施</b>转做 agent，既懂底层可靠系统、又懂 agent 开发；作为 Raft 工程师，<b>亲手在建 Linkerdog 所依托的 agent 协作底座</b>。
+      </div>
+      <div class="links">github.com/jackwener　·　x.com/jakevin7</div>
+    </div>
+
+    <div class="band">
+      <h3>团队现在 &amp; 我们在找</h3>
+      <p>当前团队偏工程 / 产品；正在找<b>商业化 · GTM（获客销售）</b>的伙伴——把“会议→执行”的价值卖出去、跑通前几个付费试点。</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="logos">AGI Builder　·　WaytoAGI　·　YoungPlan</div>
+    <div class="meta">
+      <div class="site">linkerdog.work</div>
+      项目名：Linkerdog　提交人：hawkingrei / Linkerdog team
+    </div>
+  </div>
+</div>
+</body>
+</html>

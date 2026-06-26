@@ -15,14 +15,14 @@
         <div class="avatar-mark">H</div>
         <div>
           <h1 class="profile-name">Hawkingrei</h1>
-          <p class="profile-role">Agent 系统后端 / 数据库工程师 · Raft &amp; LinkerDog 创造者</p>
+          <p class="profile-role">Agent 系统后端 / 数据库工程师 · LinkerDog 创造者</p>
         </div>
       </div>
       <div class="profile-card">
         <div class="avatar-mark">W</div>
         <div>
           <h1 class="profile-name">卡比卡比（jackwener）</h1>
-          <p class="profile-role">Apache DataFusion &amp; Doris PMC · OpenCLI 作者 · Raft 工程师</p>
+          <p class="profile-role">Apache DataFusion &amp; Doris PMC · OpenCLI 作者</p>
         </div>
       </div>
 
@@ -30,7 +30,7 @@
         <div class="section-label">Why us</div>
         <h2>既懂底层可靠系统，又手握 agent 协作底座</h2>
         <p class="muted">
-          别人做会议 AI 要从零造 agent 基础设施，我们起步就站在自己的 Raft 上。底座是杠杆，护城河和收入都在我们这层。
+          别人做会议 AI 要从零造 agent 基础设施，我们起步就站在自己的 agent 协作底座上。底座是杠杆，护城河和收入都在我们这层。
         </p>
       </div>
 
@@ -53,7 +53,7 @@
         <div class="point-card">
           <div class="point-label">🏗️</div>
           <strong>Dogfooding</strong>
-          <p class="muted">团队天天用一群 agent + 人一起在 Raft 上造 Linkerdog 本身——最诚实的牵引力。</p>
+          <p class="muted">团队天天用一群 agent + 人一起造 Linkerdog 本身——最诚实的牵引力。</p>
         </div>
       </div>
     </div>

@@ -1,0 +1,10 @@
+import { chromium } from 'playwright-core';
+import path from 'path';
+const DIR='/home/ubuntu/.slock/agents/cd8d43cd-3680-4990-a864-e2245d464370/notes/poster-output';
+const exe='/home/ubuntu/.cache/ms-playwright/chromium-1228/chrome-linux64/chrome';
+const b=await chromium.launch({executablePath:exe}); const p=await b.newPage();
+await p.goto('file://'+path.join(DIR,'linkerdog-a3-poster-20260622-v1.14-wordmark.html'),{waitUntil:'networkidle'});
+await p.pdf({path:path.join(DIR,'linkerdog-a3-poster1-svg-stickers.pdf'),width:'297mm',height:'420mm',printBackground:true,margin:{top:'0',bottom:'0',left:'0',right:'0'}});
+await p.setViewportSize({width:1122,height:1587});
+await p.screenshot({path:path.join(DIR,'linkerdog-a3-poster1-svg-stickers.png'),fullPage:true});
+await b.close(); console.log('done');

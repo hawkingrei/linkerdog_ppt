@@ -16,7 +16,7 @@
       <div class="value-item">
         <h3>✅ 已通</h3>
         <p>会中出带引用执行卡 · 写回记忆 · 真麦实时字幕（双人真房端到端）</p>
-        <p style="margin-top:0.5rem;">🔜 下周 Raft 内部替代 Zoom，随后 marketplace 灰度</p>
+        <p style="margin-top:0.5rem;">🔜 下周某公司内部替代 Zoom，随后 marketplace 灰度</p>
       </div>
       <div class="value-item">
         <h3>🔜 下一步</h3>

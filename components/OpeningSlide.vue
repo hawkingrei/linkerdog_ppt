@@ -15,7 +15,7 @@
       <p class="cover-subtitle">
         <span>一边讨论，活就做了。</span>
       </p>
-      <p class="cover-note">LinkerDog · Raft 孵化 · agent-native 会议室</p>
+      <p class="cover-note">LinkerDog · agent-native 会议室</p>
     </div>
 
     <img class="cover-logo" src="/linkerdog-logo.jpg" alt="" />

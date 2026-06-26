@@ -24,8 +24,8 @@
         </div>
         <div class="feature-card">
           <div class="feature-icon">02</div>
-          <h2>Raft 底座 + 数据不出域</h2>
-          <p>Raft 提供 agent 运行层，客户数据和付费关系都在我们这层。底座是杠杆。</p>
+          <h2>Agent 协作底座 + 数据不出域</h2>
+          <p>Agent 协作底座提供运行层，客户数据和付费关系都在我们这层。底座是杠杆。</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">03</div>
