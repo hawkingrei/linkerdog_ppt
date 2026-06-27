@@ -48,7 +48,6 @@
     <p class="center-claim" style="margin-top: 0.5rem;">
       多个 Agent 并行，把不同方向的活<span>当场做完</span>
     </p>
-    <p class="arch-note" style="text-align:center;margin-top:0.3rem;">概念示意 · 我们要去的地方</p>
   </div>
 </template>
 
