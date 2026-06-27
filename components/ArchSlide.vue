@@ -22,15 +22,16 @@
       </div>
       <div class="arch-arrow">↓</div>
       <div class="arch-layer arch-bottom">
-        <div class="arch-box">🖥️ Live Meeting（原生）</div>
-        <div class="arch-divider">+</div>
-        <div class="arch-box arch-dim">Zoom</div>
-        <div class="arch-box arch-dim">Google Meet</div>
+        <div class="arch-box arch-highlight">🖥️ Live Meeting（原生平台）</div>
+        <div class="arch-divider">|</div>
+        <div class="arch-box arch-roadmap">Zoom 🔜</div>
+        <div class="arch-box arch-roadmap">Google Meet 🔜</div>
       </div>
     </div>
 
-    <p class="center-claim" style="margin-top: 1.5rem;">
-      Agent 一等参会 · 跨平台接入 · 一处出活
+    <p class="center-claim" style="margin-top: 1.2rem;">
+      会议源谁的都行，<strong>活在我们这层做。</strong>
     </p>
+    <p class="arch-note">🔜 跨平台接入 = 下一步</p>
   </div>
 </template>

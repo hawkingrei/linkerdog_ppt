@@ -334,6 +334,24 @@
   color: var(--ld-muted);
 }
 
+.arch-box.arch-highlight {
+  border: 2px solid var(--ld-blue);
+  font-weight: 800;
+}
+
+.arch-box.arch-roadmap {
+  opacity: 0.55;
+  border-style: dashed;
+  font-size: 0.85rem;
+}
+
+.arch-note {
+  color: var(--ld-muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 0.3rem;
+}
+
 .arch-arrow {
   font-size: 1.5rem;
   font-weight: 800;
