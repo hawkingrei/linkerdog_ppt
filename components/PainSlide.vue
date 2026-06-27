@@ -12,25 +12,25 @@
 
     <div class="split-head">
       <p class="eyebrow">PROBLEM</p>
-      <h1 class="page-title">会议不是缺总结</h1>
-      <p class="page-lead">真正断掉的是：讨论没有立刻变成可执行的系统状态。</p>
+      <h1 class="page-title">会议只同步了信息</h1>
+      <p class="page-lead">人对齐了，但事情还没有发生。从同步到实现，中间有很大的 gap。</p>
     </div>
 
     <div class="problem-board">
       <div class="problem-card">
         <span class="problem-index">01</span>
-        <h2>任务要会后补</h2>
-        <p>谁负责、何时交、依据哪句话，都要人工再录一遍。</p>
+        <h2>人听懂了</h2>
+        <p>会议让大家知道发生了什么、为什么要做、谁大概要负责。</p>
       </div>
       <div class="problem-card">
         <span class="problem-index">02</span>
-        <h2>决策不能复用</h2>
-        <p>上次为什么这么定，下次还是要重新解释。</p>
+        <h2>系统没变</h2>
+        <p>任务、代码、文档、记忆和状态不会因为会议结束而自动更新。</p>
       </div>
       <div class="problem-card problem-card-wide">
         <span class="problem-index">03</span>
-        <h2>协作越来越慢</h2>
-        <p>会议越多，上下文切换越重，执行反而更慢。</p>
+        <h2>执行被推迟</h2>
+        <p>会后还要重新整理、分派、补上下文，真正实现才刚开始。</p>
       </div>
     </div>
   </div>

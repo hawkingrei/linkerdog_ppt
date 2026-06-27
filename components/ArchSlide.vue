@@ -12,43 +12,44 @@
 
     <div class="split-head">
       <p class="eyebrow">HOW IT WORKS</p>
-      <h1 class="page-title">产品是一条执行闭环</h1>
-      <p class="page-lead">不是会议插件，而是把会议输入接到 agent team 和团队记忆。</p>
+      <h1 class="page-title">我们把会开成执行现场</h1>
+      <p class="page-lead">LinkerDog 在会议中实时听、实时做、实时写回。</p>
     </div>
 
     <div class="system-map">
       <div class="system-layer platform-layer">
         <div>
-          <span class="map-label">Agent Team Platform</span>
-          <strong>任务 · 工具 · 权限 · 记忆</strong>
+          <span class="map-label">USER VALUE</span>
+          <strong>会议结束时，任务已经进入系统。</strong>
         </div>
       </div>
 
       <div class="system-middle">
         <div class="meeting-room">
-          <span class="map-label">Live Meeting</span>
-          <strong>会议现场</strong>
-          <p>语音、角色、上下文</p>
+          <span class="map-label">01 Listen</span>
+          <strong>听懂讨论</strong>
+          <p>实时字幕、角色、决策点。</p>
         </div>
         <div class="bot-core">
-          <span class="map-label">Meeting Bot</span>
-          <strong>理解 → 执行 → 记录</strong>
+          <span class="map-label">02 Act</span>
+          <strong>生成执行物</strong>
+          <p>任务卡、负责人、截止时间、原话引用。</p>
         </div>
         <div class="memory-room">
-          <span class="map-label">Team Memory</span>
-          <strong>连续上下文</strong>
-          <p>下次自动接上</p>
+          <span class="map-label">03 Persist</span>
+          <strong>写回团队记忆</strong>
+          <p>下次会议自动接上。</p>
         </div>
       </div>
 
       <div class="system-flow">
-        <div>听懂</div>
+        <div>会议讨论</div>
         <span />
-        <div>出活</div>
+        <div>执行卡片</div>
         <span />
-        <div>沉淀</div>
+        <div>团队记忆</div>
         <span />
-        <div>复用</div>
+        <div>下次继续</div>
       </div>
     </div>
   </div>
