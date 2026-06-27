@@ -13,7 +13,7 @@
     <h1 class="center-title">新<span>拐点</span></h1>
 
     <p class="center-claim">
-      MiMo-V2.5-Pro-UltraSpeed 突破 <strong>1000 tps</strong>——LLM 首次能在<strong>实时场景</strong>中完成复杂任务。
+      推理速度首次越过 <strong>1000 tokens/s</strong>（小米 MiMo-V2.5-Pro-UltraSpeed, 2026.6）——实时会中用 LLM 当场出活，从此不只是 demo。
     </p>
 
     <div class="feature-row">
