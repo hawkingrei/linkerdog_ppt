@@ -48,6 +48,9 @@
     <p class="center-claim" style="margin-top: 0.5rem;">
       多个 Agent 并行，把不同方向的活<span>当场做完</span>
     </p>
+    <p class="center-claim" style="margin-top: 0.5rem; font-size: 1rem; color: var(--r-muted);">
+      <strong>会上说的话，会还没散就变成了线上的真东西——会后总结工具做不到。</strong>
+    </p>
   </div>
 </template>
 
