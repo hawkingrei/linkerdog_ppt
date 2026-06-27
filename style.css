@@ -1093,3 +1093,429 @@
 @keyframes spinRing {
   to { transform: rotate(360deg); }
 }
+
+/* Deck-wide working-with-ai alignment */
+:root {
+  --wa-bg: #0a0a0f;
+  --wa-fg: #e8e6e3;
+  --wa-dim: #8a8792;
+  --wa-muted: #b7b2bd;
+  --wa-accent: #7c6aef;
+  --wa-accent-2: #ef6a9a;
+  --wa-accent-3: #6aefcf;
+  --wa-card: rgba(255, 255, 255, 0.045);
+  --wa-card-strong: rgba(124, 106, 239, 0.09);
+  --wa-border: rgba(255, 255, 255, 0.105);
+  --wa-border-strong: rgba(124, 106, 239, 0.32);
+  --wa-font: "Space Grotesk", "Noto Sans CJK SC", "Noto Sans SC", system-ui, sans-serif;
+  --wa-mono: "JetBrains Mono", "Menlo", monospace;
+}
+
+.slidev-layout {
+  font-family: var(--wa-font);
+  color: var(--wa-fg);
+  background:
+    radial-gradient(circle at 18% 16%, rgba(124, 106, 239, 0.18), transparent 28rem),
+    radial-gradient(circle at 82% 76%, rgba(239, 106, 154, 0.14), transparent 26rem),
+    var(--wa-bg);
+}
+
+.slide-shell {
+  padding: 2.7rem 5rem 2.45rem;
+  overflow: hidden;
+}
+
+.slide-shell::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(124, 106, 239, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(124, 106, 239, 0.055) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: radial-gradient(ellipse 68% 58% at 50% 50%, black 16%, transparent 100%);
+}
+
+.slide-shell > * {
+  position: relative;
+  z-index: 1;
+}
+
+.frame-line {
+  display: none;
+}
+
+.topline {
+  margin-bottom: 0.8rem;
+}
+
+.brand-mark {
+  border: 1px solid var(--wa-border);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: none;
+  color: var(--wa-fg);
+  font-size: 0.85rem;
+  padding: 0.45rem 0.9rem;
+}
+
+.slide-count {
+  color: var(--wa-dim);
+  font-family: var(--wa-mono);
+  font-weight: 700;
+}
+
+.eyebrow,
+.map-label,
+.pipeline-label,
+.section-label,
+.demo-card span {
+  color: var(--wa-accent-3);
+  font-family: var(--wa-mono);
+  letter-spacing: 0.05em;
+}
+
+.page-title,
+.center-title,
+.big-section-title {
+  color: var(--wa-fg);
+  font-weight: 900;
+  letter-spacing: 0;
+  background: linear-gradient(135deg, var(--wa-fg), var(--wa-accent), var(--wa-accent-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.center-title span,
+.big-section-title span,
+.center-claim span {
+  background: transparent;
+  color: var(--wa-accent-3);
+  -webkit-text-fill-color: var(--wa-accent-3);
+  padding: 0;
+}
+
+.page-lead,
+.center-claim,
+.team-moat,
+.cover-subtitle,
+.cover-note {
+  color: var(--wa-muted);
+}
+
+.page-title {
+  font-size: 3rem;
+}
+
+.page-lead {
+  margin-top: 0.55rem;
+}
+
+.problem-card,
+.task-card,
+.opt-card,
+.status-card,
+.team-card,
+.point-card,
+.feature-card,
+.value-item,
+.product-card,
+.pipeline-box,
+.bot-node,
+.system-layer,
+.meeting-room,
+.bot-core,
+.memory-room,
+.system-flow div,
+.talk-bubble,
+.demo-card,
+.skill-metaphor-item,
+.tempad-step,
+.wf-phase,
+.card-brutal {
+  color: var(--wa-fg);
+  background: var(--wa-card);
+  border: 1px solid var(--wa-border);
+  border-radius: 14px;
+  box-shadow: none;
+  backdrop-filter: blur(10px);
+}
+
+.problem-card:hover,
+.task-card:hover,
+.opt-card:hover,
+.status-card:hover,
+.team-card:hover,
+.point-card:hover {
+  border-color: var(--wa-border-strong);
+  background: var(--wa-card-strong);
+}
+
+.problem-index,
+.task-card span,
+.opt-card span,
+.status-card span,
+.point-label,
+.product-number,
+.tag-next {
+  color: var(--wa-accent-3);
+  background: rgba(106, 239, 207, 0.08);
+  border: 1px solid rgba(106, 239, 207, 0.24);
+  border-radius: 999px;
+  font-family: var(--wa-mono);
+}
+
+.problem-card h2,
+.task-card h2,
+.status-card h2,
+.feature-card h2,
+.value-item h3,
+.product-card h2,
+.team-name,
+.point-card strong,
+.system-layer strong,
+.meeting-room strong,
+.bot-core strong,
+.memory-room strong,
+.opt-card strong,
+.demo-card strong {
+  color: var(--wa-fg);
+}
+
+.problem-card p,
+.task-card p,
+.opt-card p,
+.status-card p,
+.feature-card p,
+.value-item p,
+.product-card p,
+.team-role,
+.point-card p,
+.meeting-room p,
+.memory-room p,
+.bot-node p,
+.demo-card p {
+  color: var(--wa-dim);
+}
+
+.speed-meter,
+.task-node,
+.platform-layer,
+.status-ask {
+  color: var(--wa-fg);
+  background: linear-gradient(135deg, rgba(124, 106, 239, 0.18), rgba(239, 106, 154, 0.08));
+  border: 1px solid var(--wa-border-strong);
+  border-radius: 14px;
+  box-shadow: none;
+}
+
+.meter-value {
+  color: var(--wa-accent-3);
+}
+
+.meter-label,
+.task-node span,
+.platform-layer .map-label,
+.status-ask p {
+  color: var(--wa-muted);
+}
+
+.meter-track {
+  border: 1px solid var(--wa-border);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.meter-track span,
+#progress-bar {
+  background: linear-gradient(90deg, var(--wa-accent), var(--wa-accent-2), var(--wa-accent-3));
+}
+
+.bot-core,
+.avatar-mark,
+.orbit-core {
+  color: var(--wa-fg);
+  background: linear-gradient(135deg, rgba(124, 106, 239, 0.24), rgba(106, 239, 207, 0.12));
+  border: 1px solid var(--wa-border-strong);
+  box-shadow: none;
+}
+
+.system-flow span {
+  background: linear-gradient(90deg, var(--wa-accent), var(--wa-accent-3));
+}
+
+.system-flow span::after {
+  border-left-color: var(--wa-accent-3);
+}
+
+.hero-strip div,
+.brand-pill,
+.mono-pill {
+  background: var(--wa-card);
+  border-color: var(--wa-border);
+  color: var(--wa-muted);
+}
+
+.orbit-ring {
+  border-color: var(--wa-accent);
+  opacity: 0.8;
+}
+
+.orbit-agent {
+  color: var(--wa-fg);
+  background: rgba(10, 10, 15, 0.92);
+  border: 1px solid var(--wa-border-strong);
+  box-shadow: none;
+}
+
+.talk-bubble,
+.demo-card {
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+}
+
+.slide-shell:not(.neo-dark) .brand-logo {
+  filter: brightness(1.1);
+}
+
+.cover-slide {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(124, 106, 239, 0.22), transparent 28rem),
+    radial-gradient(circle at 82% 72%, rgba(239, 106, 154, 0.16), transparent 26rem),
+    var(--wa-bg) !important;
+}
+
+.soft-grid {
+  background-image:
+    linear-gradient(rgba(124, 106, 239, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(124, 106, 239, 0.07) 1px, transparent 1px);
+}
+
+.hero-title {
+  letter-spacing: 0;
+}
+
+/* Density fixes after switching the whole deck to the dark card system */
+.problem-board {
+  gap: 0.75rem;
+}
+
+.problem-card {
+  min-height: 7.2rem;
+  padding: 0.95rem 1.05rem;
+}
+
+.problem-card-wide {
+  min-height: 5.8rem;
+}
+
+.pain-slide .split-head {
+  margin-bottom: 0.75rem;
+}
+
+.pain-slide .page-title {
+  font-size: 2.85rem;
+}
+
+.pain-slide .page-lead {
+  font-size: 0.98rem;
+}
+
+.pain-slide .problem-board {
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 0.65rem;
+}
+
+.pain-slide .problem-card {
+  min-height: 15rem;
+}
+
+.pain-slide .problem-card-wide {
+  grid-column: auto;
+}
+
+.problem-card h2,
+.task-card h2,
+.status-card h2 {
+  font-size: 1.18rem;
+}
+
+.problem-card p,
+.task-card p,
+.status-card p {
+  font-size: 0.84rem;
+}
+
+.team-layout .page-title,
+.what-layout .page-title {
+  font-size: 2.85rem;
+}
+
+.team-cards {
+  gap: 0.75rem;
+  margin-bottom: 0.65rem;
+}
+
+.team-card {
+  padding: 0.8rem 1rem;
+  min-height: 8rem;
+}
+
+.team-name {
+  font-size: 1.75rem;
+}
+
+.team-role {
+  font-size: 0.78rem;
+}
+
+.avatar-mark {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.45rem;
+}
+
+.team-moat {
+  margin: 0.55rem 0 0.7rem;
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+
+.point-row {
+  gap: 0.7rem;
+}
+
+.point-card {
+  padding: 0.75rem 0.9rem;
+}
+
+.point-card strong {
+  margin-top: 0.38rem;
+  font-size: 0.9rem;
+}
+
+.point-card p {
+  font-size: 0.74rem;
+  line-height: 1.32;
+}
+
+.optimization-stack {
+  gap: 0.72rem;
+  margin-top: 0.95rem;
+}
+
+.opt-card {
+  min-height: 6rem;
+  padding: 0.78rem 0.95rem;
+  grid-template-columns: 7rem 1.05fr 1fr;
+}
+
+.opt-card strong {
+  font-size: 1.05rem;
+}
+
+.opt-card p {
+  font-size: 0.78rem;
+  line-height: 1.35;
+}

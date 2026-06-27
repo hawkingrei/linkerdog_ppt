@@ -1,5 +1,5 @@
 <template>
-  <div class="slide-shell">
+  <div class="slide-shell pain-slide">
     <div class="topline">
       <div class="brand-mark">
         <img class="brand-logo" src="/linkerdog-logo.jpg" alt="" />
