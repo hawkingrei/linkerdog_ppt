@@ -148,4 +148,18 @@
   0%, 100% { transform: translate(-50%, -50%) scale(1); }
   50% { transform: translate(-50%, -50%) scale(1.08); }
 }
+
+/* Loop: reset after full cycle */
+.anim-person, .anim-output {
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+
+.anim-b { animation-delay: 0.4s; }
+.anim-output { animation-duration: 3s; animation-delay: 1.2s; }
+.anim-out-b { animation-delay: 1.6s; }
+
+.anim-agent {
+  animation-iteration-count: infinite;
+}
 </style>
