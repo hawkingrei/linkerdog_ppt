@@ -30,6 +30,10 @@ routerMode: hash
 
 ---
 
+<ArchSlide />
+
+---
+
 <MeetingSlide />
 
 ---
@@ -43,6 +47,10 @@ routerMode: hash
 ---
 
 <AskSlide />
+
+---
+
+<AgentAnimSlide />
 
 ---
 

@@ -290,6 +290,57 @@
   padding: 0.9rem 1.1rem;
 }
 
+/* Architecture diagram */
+.arch-diagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  margin-top: 2rem;
+}
+
+.arch-layer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  width: 100%;
+  max-width: 42rem;
+}
+
+.arch-box {
+  padding: 0.7rem 1.5rem;
+  background: var(--ld-panel);
+  border: 1px solid var(--ld-border);
+  border-radius: var(--ld-radius);
+  box-shadow: var(--ld-shadow);
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.arch-box.arch-wide {
+  min-width: 20rem;
+}
+
+.arch-box.arch-dim {
+  opacity: 0.65;
+  font-size: 0.9rem;
+}
+
+.arch-divider {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--ld-muted);
+}
+
+.arch-arrow {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--ld-blue);
+  margin: 0.3rem 0;
+}
+
 .profile-grid {
   position: relative;
   z-index: 1;
