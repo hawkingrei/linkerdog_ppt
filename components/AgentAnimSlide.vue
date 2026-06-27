@@ -12,14 +12,14 @@
 
     <div class="split-head compact">
       <p class="eyebrow">LIVE DEMO MOTION</p>
-      <h1 class="page-title">一边讨论，活就做了</h1>
+      <h1 class="page-title">会议还没结束，任务已经开始</h1>
     </div>
 
     <div class="anim-stage">
       <div class="talk-column">
-        <div class="talk-bubble bubble-one">这个客户需要一个日报 agent</div>
-        <div class="talk-bubble bubble-two">要能读取会议结论和任务状态</div>
-        <div class="talk-bubble bubble-three">下周可以给他们看 demo</div>
+        <div class="talk-bubble bubble-one">这个需求谁来跟？</div>
+        <div class="talk-bubble bubble-two">需要一个可看的 demo</div>
+        <div class="talk-bubble bubble-three">下次会议继续推进</div>
       </div>
 
       <div class="agent-orbit">
@@ -33,18 +33,18 @@
       <div class="output-column">
         <div class="demo-card demo-one">
           <span>Action card</span>
-          <strong>日报 agent POC</strong>
-          <p>owner, deadline, source quote</p>
+          <strong>负责人和截止时间</strong>
+          <p>with source quote</p>
         </div>
         <div class="demo-card demo-two">
           <span>Demo</span>
-          <strong>可运行原型</strong>
-          <p>meeting input -> report draft</p>
+          <strong>原型任务</strong>
+          <p>ready for review</p>
         </div>
         <div class="demo-card demo-three">
           <span>Memory</span>
-          <strong>下次会议自动接上</strong>
-          <p>decision, constraint, next step</p>
+          <strong>下次自动接上</strong>
+          <p>decision and next step</p>
         </div>
       </div>
     </div>

@@ -12,26 +12,26 @@
 
     <div class="what-layout">
       <p class="eyebrow">WHY US / OPTIMIZATION</p>
-      <h1 class="page-title">为什么是我们：优化介绍</h1>
+      <h1 class="page-title">壁垒在实时闭环优化</h1>
       <p class="page-lead">
-        实时 LLM 不是简单把模型接进会议，而是持续压缩延迟、上下文和协作成本。
+        把模型接进会议很容易，难的是让它稳定、低延迟、可复用。
       </p>
 
       <div class="optimization-stack">
         <div class="opt-card">
           <span>Latency</span>
-          <strong>从会后批处理到会中流式执行</strong>
-          <p>1000 tps 让 action card、demo sketch、资料补齐进入同一场对话。</p>
+          <strong>延迟</strong>
+          <p>边听边生成，避免会后批处理。</p>
         </div>
         <div class="opt-card">
           <span>Context</span>
-          <strong>把会议上下文变成可复用状态</strong>
-          <p>决策、负责人、引用原话和历史约束被写回团队记忆。</p>
+          <strong>上下文</strong>
+          <p>把决策、引用和约束写成状态。</p>
         </div>
         <div class="opt-card">
           <span>Workflow</span>
-          <strong>多个 agent 并行协作</strong>
-          <p>理解、生成、校验、写回拆成不同职责，避免单 agent 堆复杂度。</p>
+          <strong>协作</strong>
+          <p>拆分理解、生成、校验和写回。</p>
         </div>
       </div>
     </div>

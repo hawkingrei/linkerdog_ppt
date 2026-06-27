@@ -5,7 +5,7 @@
         <img class="brand-logo" src="/linkerdog-logo.jpg" alt="" />
         <span>LinkerDog</span>
       </div>
-      <div class="slide-count">03 / 08</div>
+      <div class="slide-count">02 / 08</div>
     </div>
     <div class="frame-line frame-line-top" />
     <div class="frame-line frame-line-bottom" />
@@ -13,9 +13,9 @@
     <div class="speed-layout">
       <div>
         <p class="eyebrow">NEW IDEA</p>
-        <h1 class="page-title">1000 tokens/s 以后，会里可以做更多事</h1>
+        <h1 class="page-title">实时 LLM 让会中执行成立</h1>
         <p class="page-lead">
-          MiMo-V2.5-Pro-UltraSpeed 的生成速度突破 1000 tps，实时场景不再只能转写和总结。
+          MiMo-V2.5-Pro-UltraSpeed 突破 1000 tps，会议里不再只能转写和总结。
         </p>
       </div>
 
@@ -36,13 +36,13 @@
       <div class="task-lane">
         <div class="task-card">
           <span>01</span>
-          <h2>Agent 快速开发实现</h2>
-          <p>会议中提出需求，当场生成实现路径、拉起 demo、让团队直接评审。</p>
+          <h2>需求当场落地</h2>
+          <p>听到需求后，直接生成方案、代码草图或 demo。</p>
         </div>
         <div class="task-card">
           <span>02</span>
-          <h2>Agent 在会议室协作</h2>
-          <p>多个 agent 分工：理解讨论、补资料、生成卡片、写回团队记忆。</p>
+          <h2>Agent 分工协作</h2>
+          <p>一个理解讨论，一个补资料，一个写回任务和记忆。</p>
         </div>
       </div>
     </div>

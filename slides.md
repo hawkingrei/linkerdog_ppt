@@ -18,11 +18,11 @@ routerMode: hash
 
 ---
 
-<PainSlide />
+<SpeedSlide />
 
 ---
 
-<SpeedSlide />
+<PainSlide />
 
 ---
 

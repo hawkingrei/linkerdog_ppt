@@ -12,43 +12,43 @@
 
     <div class="split-head">
       <p class="eyebrow">HOW IT WORKS</p>
-      <h1 class="page-title">我们是怎么做的</h1>
-      <p class="page-lead">把会议室、agent team、团队记忆合成一条会中执行链路。</p>
+      <h1 class="page-title">产品是一条执行闭环</h1>
+      <p class="page-lead">不是会议插件，而是把会议输入接到 agent team 和团队记忆。</p>
     </div>
 
     <div class="system-map">
       <div class="system-layer platform-layer">
         <div>
           <span class="map-label">Agent Team Platform</span>
-          <strong>协作、权限、任务与记忆</strong>
+          <strong>任务 · 工具 · 权限 · 记忆</strong>
         </div>
       </div>
 
       <div class="system-middle">
         <div class="meeting-room">
           <span class="map-label">Live Meeting</span>
-          <strong>原生会议室</strong>
-          <p>真麦字幕 · 角色识别 · 会中状态</p>
+          <strong>会议现场</strong>
+          <p>语音、角色、上下文</p>
         </div>
         <div class="bot-core">
           <span class="map-label">Meeting Bot</span>
-          <strong>理解 → 出卡 → 写回</strong>
+          <strong>理解 → 执行 → 记录</strong>
         </div>
         <div class="memory-room">
           <span class="map-label">Team Memory</span>
-          <strong>决策复用</strong>
-          <p>跨会连续上下文</p>
+          <strong>连续上下文</strong>
+          <p>下次自动接上</p>
         </div>
       </div>
 
       <div class="system-flow">
-        <div>参会理解</div>
+        <div>听懂</div>
         <span />
-        <div>当场出活</div>
+        <div>出活</div>
         <span />
-        <div>写回记忆</div>
+        <div>沉淀</div>
         <span />
-        <div>下场复用</div>
+        <div>复用</div>
       </div>
     </div>
   </div>
