@@ -30,7 +30,7 @@
     </div>
 
     <p class="center-claim" style="margin-top: 1.2rem;">
-      会议源谁的都行，<strong>活在我们这层做。</strong>
+      <strong>无论会议在哪里，任务都由我们完成。</strong>
     </p>
     <p class="arch-note">🔜 跨平台接入 = 下一步</p>
   </div>
