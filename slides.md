@@ -22,6 +22,10 @@ routerMode: hash
 
 ---
 
+<WhyNowSlide />
+
+---
+
 <TitleSlide />
 
 ---
