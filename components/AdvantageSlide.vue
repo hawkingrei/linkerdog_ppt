@@ -5,7 +5,7 @@
         <img class="brand-logo" src="/linkerdog-logo.jpg" alt="" />
         <span>LinkerDog</span>
       </div>
-      <div class="slide-count">09 / 12</div>
+      <div class="slide-count">06 / 08</div>
     </div>
     <div class="frame-line frame-line-top" />
     <div class="frame-line frame-line-bottom" />

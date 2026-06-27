@@ -22,15 +22,7 @@ routerMode: hash
 
 ---
 
-<WhyNowSlide />
-
----
-
-<TitleSlide />
-
----
-
-<ProfileSlide />
+<SpeedSlide />
 
 ---
 
@@ -38,11 +30,7 @@ routerMode: hash
 
 ---
 
-<MeetingSlide />
-
----
-
-<MarketSlide />
+<ProfileSlide />
 
 ---
 
@@ -55,7 +43,3 @@ routerMode: hash
 ---
 
 <AgentAnimSlide />
-
----
-
-<ThanksSlide />
