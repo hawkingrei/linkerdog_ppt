@@ -1,23 +1,28 @@
 <template>
-  <div class="slide-shell cover-slide brand-blue">
-    <div class="frame-line frame-line-top" />
-    <div class="frame-line frame-line-bottom" />
-
-    <div class="cover-top">
-      <div class="brand-mark brand-mark-dark">
+  <div class="slide-shell cover-slide neo-dark">
+    <div class="soft-grid" />
+    <div class="cover-nav">
+      <div class="brand-pill">
         <img class="brand-logo" src="/linkerdog-logo.jpg" alt="" />
         <span>LinkerDog</span>
       </div>
+      <div class="mono-pill">Agent-native meeting room</div>
     </div>
 
-    <div class="cover-content">
-      <h1 class="cover-title">Agent 坐进会里。</h1>
-      <p class="cover-subtitle">
-        <span>一边讨论，活就做了。</span>
-      </p>
-      <p class="cover-note">LinkerDog · agent-native 会议室</p>
+    <div class="hero-lockup">
+      <p class="eyebrow">2026-06-28 ROADSHOW</p>
+      <h1 class="hero-title">
+        Agent<br />
+        坐进会里
+      </h1>
+      <p class="hero-subtitle">一边讨论，活就做了。</p>
     </div>
 
-    <img class="cover-logo" src="/linkerdog-logo.jpg" alt="" />
+    <div class="hero-strip">
+      <div>Realtime transcript</div>
+      <div>Action cards</div>
+      <div>Team memory</div>
+      <div>Agent collaboration</div>
+    </div>
   </div>
 </template>

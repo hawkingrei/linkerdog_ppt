@@ -11,26 +11,27 @@
     <div class="frame-line frame-line-bottom" />
 
     <div class="what-layout">
-      <h1 class="big-section-title">为什么<span>是我们</span></h1>
-      <p class="center-claim">
-        护城河在上面那层：<strong>自建全栈</strong>，平台是<span>杠杆</span>不是命门
+      <p class="eyebrow">WHY US / OPTIMIZATION</p>
+      <h1 class="page-title">为什么是我们：优化介绍</h1>
+      <p class="page-lead">
+        实时 LLM 不是简单把模型接进会议，而是持续压缩延迟、上下文和协作成本。
       </p>
 
-      <div class="feature-row">
-        <div class="feature-card">
-          <div class="feature-icon">01</div>
-          <h2>自建 agent-native 会议室</h2>
-          <p>AI 是一等参会者，不是挂在别人会议上的插件。体验可控。</p>
+      <div class="optimization-stack">
+        <div class="opt-card">
+          <span>Latency</span>
+          <strong>从会后批处理到会中流式执行</strong>
+          <p>1000 tps 让 action card、demo sketch、资料补齐进入同一场对话。</p>
         </div>
-        <div class="feature-card">
-          <div class="feature-icon">02</div>
-          <h2>Agent Team 平台 + 数据不出域</h2>
-          <p>我们 agent team 自己的协作平台，客户数据和付费关系都在我们这层。</p>
+        <div class="opt-card">
+          <span>Context</span>
+          <strong>把会议上下文变成可复用状态</strong>
+          <p>决策、负责人、引用原话和历史约束被写回团队记忆。</p>
         </div>
-        <div class="feature-card">
-          <div class="feature-icon">03</div>
-          <h2>按结果收钱</h2>
-          <p>不卖 SaaS 座位。只收"省下的人力"的钱，锚定人力小时数/月。</p>
+        <div class="opt-card">
+          <span>Workflow</span>
+          <strong>多个 agent 并行协作</strong>
+          <p>理解、生成、校验、写回拆成不同职责，避免单 agent 堆复杂度。</p>
         </div>
       </div>
     </div>

@@ -10,43 +10,46 @@
     <div class="frame-line frame-line-top" />
     <div class="frame-line frame-line-bottom" />
 
-    <h1 class="center-title">我们<span>怎么做</span></h1>
-
-    <div class="arch-diagram">
-      <div class="arch-layer arch-top">
-        <div class="arch-box arch-wide">🧑 Agent Team 协作平台</div>
-      </div>
-      <div class="arch-arrow">↓</div>
-      <div class="arch-layer arch-mid">
-        <div class="arch-box">🤖 Meeting Bot</div>
-      </div>
-      <div class="arch-arrow">↓</div>
-      <div class="arch-layer arch-bottom">
-        <div class="arch-box arch-highlight">🖥️ Live Meeting（原生平台）</div>
-        <div class="arch-divider">|</div>
-        <div class="arch-box arch-roadmap">Zoom 🔜</div>
-        <div class="arch-box arch-roadmap">Google Meet 🔜</div>
-      </div>
+    <div class="split-head">
+      <p class="eyebrow">HOW IT WORKS</p>
+      <h1 class="page-title">我们是怎么做的</h1>
+      <p class="page-lead">把会议室、agent team、团队记忆合成一条会中执行链路。</p>
     </div>
 
-    <div class="value-band" style="margin-top: 1.5rem;">
-      <div class="value-item">
-        <h3>1. 参会理解</h3>
-        <p>AI 边开会边理解讨论、角色、决策和未完成事项。</p>
+    <div class="system-map">
+      <div class="system-layer platform-layer">
+        <div>
+          <span class="map-label">Agent Team Platform</span>
+          <strong>协作、权限、任务与记忆</strong>
+        </div>
       </div>
-      <div class="value-item">
-        <h3>2. 当场出活</h3>
-        <p>带原话引用的执行卡片——谁做什么、何时交、依据哪句话。</p>
+
+      <div class="system-middle">
+        <div class="meeting-room">
+          <span class="map-label">Live Meeting</span>
+          <strong>原生会议室</strong>
+          <p>真麦字幕 · 角色识别 · 会中状态</p>
+        </div>
+        <div class="bot-core">
+          <span class="map-label">Meeting Bot</span>
+          <strong>理解 → 出卡 → 写回</strong>
+        </div>
+        <div class="memory-room">
+          <span class="map-label">Team Memory</span>
+          <strong>决策复用</strong>
+          <p>跨会连续上下文</p>
+        </div>
       </div>
-      <div class="value-item">
-        <h3>3. 写回记忆</h3>
-        <p>决策和上下文沉淀到团队记忆，不停留在一次会议。</p>
+
+      <div class="system-flow">
+        <div>参会理解</div>
+        <span />
+        <div>当场出活</div>
+        <span />
+        <div>写回记忆</div>
+        <span />
+        <div>下场复用</div>
       </div>
     </div>
-
-    <p class="center-claim" style="margin-top: 1rem;">
-      <strong>无论会议在哪里，任务都由我们完成。</strong>
-    </p>
-    <p class="arch-note">🔜 跨平台接入 = 下一步</p>
   </div>
 </template>

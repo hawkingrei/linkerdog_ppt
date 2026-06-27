@@ -10,21 +10,27 @@
     <div class="frame-line frame-line-top" />
     <div class="frame-line frame-line-bottom" />
 
-    <h1 class="center-title">现状 · <span>ASK</span></h1>
+    <div class="split-head">
+      <p class="eyebrow">CURRENT STATUS</p>
+      <h1 class="page-title">现状</h1>
+      <p class="page-lead">已经打通会中执行闭环，下一步要把它推到真实团队里。</p>
+    </div>
 
-    <div class="value-band">
-      <div class="value-item">
-        <h3>✅ 已通</h3>
-        <p>会中出带引用执行卡 · 写回记忆 · 真麦实时字幕（双人真房端到端）</p>
-        <p style="margin-top:0.5rem;">🔜 下周邀请码灰度上线</p>
+    <div class="status-grid">
+      <div class="status-card status-done">
+        <span>DONE</span>
+        <h2>双人真房端到端已通</h2>
+        <p>真麦实时字幕、带引用执行卡、写回记忆。</p>
       </div>
-      <div class="value-item">
-        <h3>🔜 下一步</h3>
-        <p>跨会自动复用 + 真实音频自动进会（闭环已设计）</p>
+      <div class="status-card">
+        <span>NEXT</span>
+        <h2>邀请码灰度</h2>
+        <p>跨会自动复用、真实音频自动进会、团队使用路径。</p>
       </div>
-      <div class="value-item">
-        <h3>🎯 Ask</h3>
-        <p>3 个为"执行记忆和复用"付费的试点客户。滩头：产研团队 / 专业服务。2 周启动 POC，按省下的人力收钱。</p>
+      <div class="status-card status-ask">
+        <span>ASK</span>
+        <h2>3 个付费试点客户</h2>
+        <p>滩头：产研团队 / 专业服务。2 周启动 POC，按省下的人力收钱。</p>
       </div>
     </div>
   </div>

@@ -11,14 +11,15 @@
     <div class="frame-line frame-line-bottom" />
 
     <div class="team-layout">
-      <h1 class="center-title">团队 · <span>凭什么</span>是我们</h1>
+      <p class="eyebrow">WHY US / TEAM</p>
+      <h1 class="page-title">为什么是我们：团队成员</h1>
 
       <div class="team-cards">
         <div class="team-card">
           <div class="avatar-mark">H</div>
           <div>
             <h2 class="team-name">Hawkingrei</h2>
-            <p class="team-role">TiDB 核心研发 · Top Contributor · LinkerDog 创造者</p>
+            <p class="team-role">TiDB 核心研发 · Top Contributor · LinkerDog creator</p>
           </div>
         </div>
         <div class="team-card">
@@ -31,24 +32,24 @@
       </div>
 
       <div class="team-moat">
-        <p>TiDB / Doris 内核级团队 + AI Native 自研 agent team 平台。别人从零造 agent 基础设施，我们起步就有现成的协作平台。</p>
+        <p>数据库内核级工程能力 + AI Native 自研 agent team 平台。别人从会议总结切入，我们从执行系统切入。</p>
       </div>
 
       <div class="point-row">
         <div class="point-card">
           <div class="point-label">01</div>
-          <strong>自建全栈</strong>
-          <p>Agent-native 会议室，AI 是一等参会者。</p>
+          <strong>系统工程</strong>
+          <p>能处理实时、状态、记忆、权限和长期演进。</p>
         </div>
         <div class="point-card">
           <div class="point-label">02</div>
-          <strong>跨会议记忆</strong>
-          <p>决策记忆 + 冲突拦截，模型层给不了。</p>
+          <strong>Agent 基建</strong>
+          <p>已有协作平台和工具链，不从插件层重造。</p>
         </div>
         <div class="point-card">
           <div class="point-label">03</div>
-          <strong>按结果收钱</strong>
-          <p>只收"省下的人力"的钱，不卖 SaaS 座位。</p>
+          <strong>产品闭环</strong>
+          <p>会议室、任务、记忆和 demo 都在同一条链路里。</p>
         </div>
       </div>
     </div>
