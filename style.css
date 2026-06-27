@@ -1536,3 +1536,270 @@
   font-size: 0.78rem;
   line-height: 1.35;
 }
+
+/* Markdown-only deck, modeled after working-with-ai */
+.md-slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 3rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: var(--wa-fg);
+  background:
+    radial-gradient(circle at 18% 18%, rgba(124, 106, 239, 0.18), transparent 28rem),
+    radial-gradient(circle at 86% 78%, rgba(239, 106, 154, 0.12), transparent 26rem),
+    var(--wa-bg);
+}
+
+.md-slide::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(124, 106, 239, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(124, 106, 239, 0.055) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: radial-gradient(ellipse 68% 58% at 50% 50%, black 16%, transparent 100%);
+}
+
+.md-slide > * {
+  position: relative;
+  z-index: 1;
+}
+
+.md-hero {
+  align-items: center;
+  text-align: center;
+}
+
+.md-brand {
+  position: absolute;
+  top: 3rem;
+  left: 5rem;
+  border: 1px solid var(--wa-border);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 0.45rem 0.9rem;
+  color: var(--wa-muted);
+  font-weight: 800;
+}
+
+.md-center {
+  max-width: 62rem;
+}
+
+.md-kicker,
+.md-card span,
+.md-node span {
+  color: var(--wa-accent-3);
+  font-family: var(--wa-mono);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.md-kicker {
+  margin-bottom: 0.75rem;
+}
+
+.md-title {
+  max-width: 62rem;
+  margin: 0;
+  font-size: 4rem;
+  line-height: 1.08;
+  font-weight: 900;
+  letter-spacing: 0;
+  background: linear-gradient(135deg, var(--wa-fg), var(--wa-accent), var(--wa-accent-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.md-title-mega {
+  font-size: 6.4rem;
+}
+
+.md-subtitle {
+  max-width: 52rem;
+  margin: 1rem 0 0;
+  color: var(--wa-muted);
+  font-size: 1.35rem;
+  line-height: 1.55;
+  font-weight: 700;
+}
+
+.md-center .md-subtitle {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.md-grid {
+  display: grid;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.md-grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.md-grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.md-card,
+.md-node,
+.md-metric,
+.md-person {
+  border: 1px solid var(--wa-border);
+  border-radius: 14px;
+  background: var(--wa-card);
+  backdrop-filter: blur(10px);
+  color: var(--wa-fg);
+}
+
+.md-card {
+  min-height: 12rem;
+  padding: 1.35rem 1.45rem;
+}
+
+.md-card-hot,
+.md-node-hot,
+.md-metric {
+  border-color: var(--wa-border-strong);
+  background: linear-gradient(135deg, rgba(124, 106, 239, 0.16), rgba(239, 106, 154, 0.08));
+}
+
+.md-card strong,
+.md-node strong {
+  display: block;
+  margin-top: 0.8rem;
+  color: var(--wa-fg);
+  font-size: 1.45rem;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+.md-card p,
+.md-node p,
+.md-person p {
+  margin: 0.75rem 0 0;
+  color: var(--wa-dim);
+  font-size: 1rem;
+  line-height: 1.45;
+  font-weight: 700;
+}
+
+.md-split {
+  display: grid;
+  grid-template-columns: 24rem 1fr;
+  gap: 1.25rem;
+  align-items: stretch;
+  margin-top: 3rem;
+}
+
+.md-stack {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.md-metric {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 14rem;
+  padding: 1.5rem;
+}
+
+.md-metric-value {
+  color: var(--wa-accent-3);
+  font-size: 5.4rem;
+  line-height: 1;
+  font-weight: 900;
+}
+
+.md-metric-label {
+  margin-top: 0.5rem;
+  color: var(--wa-muted);
+  font-family: var(--wa-mono);
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+
+.md-flow {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.md-node {
+  min-height: 12rem;
+  padding: 1.35rem 1.45rem;
+}
+
+.md-arrow {
+  color: var(--wa-accent-3);
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.md-callout {
+  margin-top: 1.4rem;
+  color: var(--wa-muted);
+  font-size: 1.25rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.md-large-card {
+  min-height: 16rem;
+}
+
+.md-large-card strong {
+  font-size: 1.85rem;
+}
+
+.md-team-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2.4rem;
+}
+
+.md-person {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  min-height: 8rem;
+  padding: 1.25rem;
+}
+
+.md-person img {
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid var(--wa-border-strong);
+  border-radius: 14px;
+}
+
+.md-person strong {
+  display: block;
+  color: var(--wa-fg);
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+.md-compact-grid {
+  margin-top: 1rem;
+}
+
+.md-compact-grid .md-card {
+  min-height: 7rem;
+}
