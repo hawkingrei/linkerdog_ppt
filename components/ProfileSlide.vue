@@ -16,14 +16,14 @@
 
       <div class="team-cards">
         <div class="team-card">
-          <div class="avatar-mark">H</div>
+          <img class="avatar-photo" src="https://github.com/hawkingrei.png" alt="Hawkingrei GitHub avatar" />
           <div>
             <h2 class="team-name">Hawkingrei</h2>
             <p class="team-role">TiDB 核心研发 · Top Contributor · LinkerDog creator</p>
           </div>
         </div>
         <div class="team-card">
-          <div class="avatar-mark">W</div>
+          <img class="avatar-photo" src="https://github.com/jackwener.png" alt="jackwener GitHub avatar" />
           <div>
             <h2 class="team-name">卡比卡比（jackwener）</h2>
             <p class="team-role">OpenCLI 作者 · Apache DataFusion &amp; Doris PMC</p>

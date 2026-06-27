@@ -380,6 +380,15 @@
   flex-shrink: 0;
 }
 
+.avatar-photo {
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 2px solid var(--r-ink);
+  border-radius: var(--ld-radius);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
 /* Cover slide */
 .cover-slide {
   background: var(--r-cream) !important;
@@ -1474,6 +1483,14 @@
   width: 3rem;
   height: 3rem;
   font-size: 1.45rem;
+}
+
+.avatar-photo {
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid var(--wa-border-strong);
+  border-radius: 14px;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.18);
 }
 
 .team-moat {
