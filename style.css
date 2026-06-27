@@ -1,4 +1,5 @@
 /* Raft Brutal Theme for LinkerDog Slidev Deck */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap");
 
 :root {
   /* Colors — Raft brutal palette */
@@ -8,7 +9,7 @@
   --r-white: #ffffff;
   --r-border: #141111;
   --r-muted: #6b6b6b;
-  --r-blue: #2563eb;
+  --r-blue: #34e6b8;
 
   /* Tokens */
   --ld-ink: var(--r-ink);
@@ -519,12 +520,12 @@
 
 /* Working-with-AI inspired section system */
 .neo-dark {
-  --neo-bg: #0a0a0f;
-  --neo-fg: #f5f2eb;
-  --neo-dim: #9d9aa4;
-  --neo-purple: #7c6aef;
-  --neo-pink: #ef6a9a;
-  --neo-mint: #6aefcf;
+  --neo-bg: var(--wa-bg);
+  --neo-fg: var(--wa-fg);
+  --neo-dim: var(--wa-dim);
+  --neo-purple: var(--wa-accent-4);
+  --neo-pink: var(--wa-accent-2);
+  --neo-mint: var(--wa-accent);
   background: var(--neo-bg) !important;
   color: var(--neo-fg);
   overflow: hidden;
@@ -534,8 +535,8 @@
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(124, 106, 239, 0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(124, 106, 239, 0.08) 1px, transparent 1px);
+    linear-gradient(var(--wa-grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--wa-grid) 1px, transparent 1px);
   background-size: 64px 64px;
   mask-image: radial-gradient(ellipse 62% 54% at 50% 48%, black 20%, transparent 100%);
 }
@@ -1105,19 +1106,25 @@
 
 /* Deck-wide working-with-ai alignment */
 :root {
-  --wa-bg: #0a0a0f;
-  --wa-fg: #e8e6e3;
-  --wa-dim: #8a8792;
-  --wa-muted: #b7b2bd;
-  --wa-accent: #7c6aef;
-  --wa-accent-2: #ef6a9a;
-  --wa-accent-3: #6aefcf;
-  --wa-card: rgba(255, 255, 255, 0.045);
-  --wa-card-strong: rgba(124, 106, 239, 0.09);
-  --wa-border: rgba(255, 255, 255, 0.105);
-  --wa-border-strong: rgba(124, 106, 239, 0.32);
-  --wa-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif;
-  --wa-display: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --wa-bg: #070908;
+  --wa-bg-2: #0d1210;
+  --wa-bg-3: #160f0d;
+  --wa-fg: #f8f2e8;
+  --wa-dim: #8f8981;
+  --wa-muted: #c8bfb2;
+  --wa-accent: #34e6b8;
+  --wa-accent-2: #ff775f;
+  --wa-accent-3: #f6c85f;
+  --wa-accent-4: #9fdcc5;
+  --wa-card: rgba(248, 242, 232, 0.055);
+  --wa-card-strong: rgba(52, 230, 184, 0.11);
+  --wa-border: rgba(248, 242, 232, 0.13);
+  --wa-border-strong: rgba(52, 230, 184, 0.38);
+  --wa-grid: rgba(248, 242, 232, 0.045);
+  --wa-title-gradient: linear-gradient(135deg, #fffaf0 0%, #f6c85f 46%, #34e6b8 100%);
+  --wa-accent-gradient: linear-gradient(90deg, #34e6b8 0%, #f6c85f 50%, #ff775f 100%);
+  --wa-font: "Inter", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --wa-display: "Inter", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
   --wa-mono: "JetBrains Mono", "SFMono-Regular", "Menlo", "Consolas", monospace;
 }
 
@@ -1125,8 +1132,9 @@
   font-family: var(--wa-font);
   color: var(--wa-fg);
   background:
-    radial-gradient(circle at 18% 16%, rgba(124, 106, 239, 0.18), transparent 28rem),
-    radial-gradient(circle at 82% 76%, rgba(239, 106, 154, 0.14), transparent 26rem),
+    radial-gradient(circle at 16% 18%, rgba(52, 230, 184, 0.14), transparent 28rem),
+    radial-gradient(circle at 82% 14%, rgba(246, 200, 95, 0.12), transparent 24rem),
+    radial-gradient(circle at 78% 82%, rgba(255, 119, 95, 0.15), transparent 26rem),
     var(--wa-bg);
 }
 
@@ -1142,8 +1150,8 @@
   z-index: 0;
   pointer-events: none;
   background-image:
-    linear-gradient(rgba(124, 106, 239, 0.055) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(124, 106, 239, 0.055) 1px, transparent 1px);
+    linear-gradient(var(--wa-grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--wa-grid) 1px, transparent 1px);
   background-size: 60px 60px;
   mask-image: radial-gradient(ellipse 68% 58% at 50% 50%, black 16%, transparent 100%);
 }
@@ -1193,7 +1201,7 @@
   color: var(--wa-fg);
   font-weight: 900;
   letter-spacing: 0;
-  background: linear-gradient(135deg, var(--wa-fg), var(--wa-accent), var(--wa-accent-2));
+  background: var(--wa-title-gradient);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1272,8 +1280,8 @@
 .product-number,
 .tag-next {
   color: var(--wa-accent-3);
-  background: rgba(106, 239, 207, 0.08);
-  border: 1px solid rgba(106, 239, 207, 0.24);
+  background: rgba(52, 230, 184, 0.08);
+  border: 1px solid rgba(52, 230, 184, 0.24);
   border-radius: 999px;
   font-family: var(--wa-mono);
 }
@@ -1316,7 +1324,7 @@
 .platform-layer,
 .status-ask {
   color: var(--wa-fg);
-  background: linear-gradient(135deg, rgba(124, 106, 239, 0.18), rgba(239, 106, 154, 0.08));
+  background: linear-gradient(135deg, rgba(52, 230, 184, 0.13), rgba(255, 119, 95, 0.08));
   border: 1px solid var(--wa-border-strong);
   border-radius: 14px;
   box-shadow: none;
@@ -1335,19 +1343,19 @@
 
 .meter-track {
   border: 1px solid var(--wa-border);
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(248, 242, 232, 0.055);
 }
 
 .meter-track span,
 #progress-bar {
-  background: linear-gradient(90deg, var(--wa-accent), var(--wa-accent-2), var(--wa-accent-3));
+  background: var(--wa-accent-gradient);
 }
 
 .bot-core,
 .avatar-mark,
 .orbit-core {
   color: var(--wa-fg);
-  background: linear-gradient(135deg, rgba(124, 106, 239, 0.24), rgba(106, 239, 207, 0.12));
+  background: linear-gradient(135deg, rgba(52, 230, 184, 0.15), rgba(246, 200, 95, 0.1));
   border: 1px solid var(--wa-border-strong);
   box-shadow: none;
 }
@@ -1391,15 +1399,15 @@
 
 .cover-slide {
   background:
-    radial-gradient(circle at 20% 20%, rgba(124, 106, 239, 0.22), transparent 28rem),
-    radial-gradient(circle at 82% 72%, rgba(239, 106, 154, 0.16), transparent 26rem),
+    radial-gradient(circle at 20% 20%, rgba(52, 230, 184, 0.16), transparent 28rem),
+    radial-gradient(circle at 82% 72%, rgba(255, 119, 95, 0.16), transparent 26rem),
     var(--wa-bg) !important;
 }
 
 .soft-grid {
   background-image:
-    linear-gradient(rgba(124, 106, 239, 0.07) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(124, 106, 239, 0.07) 1px, transparent 1px);
+    linear-gradient(var(--wa-grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--wa-grid) 1px, transparent 1px);
 }
 
 .hero-title {
@@ -1550,9 +1558,10 @@
   overflow: hidden;
   color: var(--wa-fg);
   background:
-    radial-gradient(circle at 18% 18%, rgba(124, 106, 239, 0.18), transparent 28rem),
-    radial-gradient(circle at 86% 78%, rgba(239, 106, 154, 0.12), transparent 26rem),
-    var(--wa-bg);
+    radial-gradient(circle at 14% 18%, rgba(52, 230, 184, 0.14), transparent 28rem),
+    radial-gradient(circle at 78% 18%, rgba(246, 200, 95, 0.1), transparent 22rem),
+    radial-gradient(circle at 86% 82%, rgba(255, 119, 95, 0.14), transparent 26rem),
+    linear-gradient(135deg, var(--wa-bg) 0%, var(--wa-bg-2) 56%, var(--wa-bg-3) 100%);
 }
 
 .md-slide::before {
@@ -1561,8 +1570,8 @@
   inset: 0;
   pointer-events: none;
   background-image:
-    linear-gradient(rgba(124, 106, 239, 0.055) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(124, 106, 239, 0.055) 1px, transparent 1px);
+    linear-gradient(var(--wa-grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--wa-grid) 1px, transparent 1px);
   background-size: 60px 60px;
   mask-image: radial-gradient(ellipse 68% 58% at 50% 50%, black 16%, transparent 100%);
 }
@@ -1583,7 +1592,7 @@
   left: 5rem;
   border: 1px solid var(--wa-border);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(248, 242, 232, 0.06);
   padding: 0.45rem 0.9rem;
   color: var(--wa-muted);
   font-family: var(--wa-display);
@@ -1597,10 +1606,10 @@
 .md-kicker,
 .md-card span,
 .md-node span {
-  color: var(--wa-accent-3);
+  color: var(--wa-accent);
   font-family: var(--wa-mono);
   font-size: 0.78rem;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -1617,7 +1626,7 @@
   line-height: 1.08;
   font-weight: 800;
   letter-spacing: 0;
-  background: linear-gradient(135deg, var(--wa-fg), var(--wa-accent), var(--wa-accent-2));
+  background: var(--wa-title-gradient);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1676,7 +1685,9 @@
 .md-node-hot,
 .md-metric {
   border-color: var(--wa-border-strong);
-  background: linear-gradient(135deg, rgba(124, 106, 239, 0.16), rgba(239, 106, 154, 0.08));
+  background:
+    linear-gradient(135deg, rgba(52, 230, 184, 0.12), rgba(255, 119, 95, 0.08)),
+    rgba(248, 242, 232, 0.045);
 }
 
 .md-card strong,
@@ -1724,7 +1735,7 @@
 
 .md-metric-value {
   font-family: var(--wa-mono);
-  color: var(--wa-accent-3);
+  color: var(--wa-accent);
   font-size: 5.4rem;
   line-height: 1;
   font-weight: 800;
@@ -1752,7 +1763,7 @@
 }
 
 .md-arrow {
-  color: var(--wa-accent-3);
+  color: var(--wa-accent);
   font-size: 2rem;
   font-weight: 800;
 }
@@ -1832,9 +1843,11 @@
     conic-gradient(
       from 180deg at 50% 50%,
       transparent 0deg,
-      rgba(106, 239, 207, 0.1) 70deg,
+      rgba(52, 230, 184, 0.11) 70deg,
       transparent 128deg,
-      rgba(239, 106, 154, 0.11) 220deg,
+      rgba(246, 200, 95, 0.08) 174deg,
+      transparent 220deg,
+      rgba(255, 119, 95, 0.11) 265deg,
       transparent 310deg
     );
   filter: blur(80px);
@@ -1905,12 +1918,12 @@
 .md-metric:hover,
 .md-person:hover {
   transform: translateY(-4px);
-  border-color: rgba(106, 239, 207, 0.38);
-  background: rgba(255, 255, 255, 0.065);
+  border-color: rgba(52, 230, 184, 0.42);
+  background: rgba(248, 242, 232, 0.07);
   box-shadow:
     0 22px 58px rgba(0, 0, 0, 0.28),
-    0 0 0 1px rgba(106, 239, 207, 0.1),
-    0 0 36px rgba(124, 106, 239, 0.14);
+    0 0 0 1px rgba(52, 230, 184, 0.12),
+    0 0 34px rgba(52, 230, 184, 0.12);
 }
 
 .md-card-hot,
@@ -1918,7 +1931,7 @@
 .md-metric {
   box-shadow:
     0 22px 58px rgba(0, 0, 0, 0.24),
-    0 0 42px rgba(124, 106, 239, 0.12);
+    0 0 42px rgba(52, 230, 184, 0.12);
 }
 
 .md-floating-symbols {
@@ -1933,10 +1946,10 @@
   position: absolute;
   bottom: -4.5rem;
   padding: 0.35rem 0.7rem;
-  border: 1px solid rgba(106, 239, 207, 0.18);
+  border: 1px solid rgba(52, 230, 184, 0.22);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.045);
-  color: rgba(106, 239, 207, 0.62);
+  background: rgba(248, 242, 232, 0.045);
+  color: rgba(52, 230, 184, 0.66);
   font-family: var(--wa-mono);
   font-size: 0.86rem;
   font-weight: 800;
@@ -1946,14 +1959,14 @@
 }
 
 .md-floating-symbols span:nth-child(2n) {
-  border-color: rgba(239, 106, 154, 0.18);
-  color: rgba(239, 106, 154, 0.58);
+  border-color: rgba(255, 119, 95, 0.22);
+  color: rgba(255, 119, 95, 0.62);
   animation-duration: 12s;
 }
 
 .md-floating-symbols span:nth-child(3n) {
-  border-color: rgba(124, 106, 239, 0.2);
-  color: rgba(184, 174, 255, 0.58);
+  border-color: rgba(246, 200, 95, 0.24);
+  color: rgba(246, 200, 95, 0.62);
   animation-duration: 14s;
 }
 
@@ -1964,7 +1977,7 @@
   overflow: hidden;
   border: 1px solid var(--wa-border);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(248, 242, 232, 0.055);
 }
 
 .md-metric-track span {
@@ -1972,7 +1985,7 @@
   width: 100%;
   height: 100%;
   border-radius: inherit;
-  background: linear-gradient(90deg, var(--wa-accent), var(--wa-accent-2), var(--wa-accent-3));
+  background: var(--wa-accent-gradient);
   transform-origin: left center;
   animation: mdMetricFill 1.8s cubic-bezier(0.22, 1, 0.36, 1) 0.45s both;
 }
@@ -1989,7 +2002,7 @@
   top: 50%;
   z-index: 0;
   height: 2px;
-  background: linear-gradient(90deg, transparent, rgba(106, 239, 207, 0.52), transparent);
+  background: linear-gradient(90deg, transparent, rgba(52, 230, 184, 0.58), transparent);
   transform: translateY(-50%);
   opacity: 0.55;
   animation: mdFlowBeam 2.8s ease-in-out infinite;
@@ -2019,7 +2032,7 @@
   content: "";
   position: absolute;
   inset: -0.6rem;
-  border: 1px solid rgba(106, 239, 207, 0.28);
+  border: 1px solid rgba(52, 230, 184, 0.34);
   border-radius: 12px;
   pointer-events: none;
   opacity: 0;
@@ -2109,12 +2122,12 @@
   0%, 100% {
     box-shadow:
       0 22px 58px rgba(0, 0, 0, 0.24),
-      0 0 28px rgba(106, 239, 207, 0.08);
+      0 0 28px rgba(52, 230, 184, 0.1);
   }
   50% {
     box-shadow:
       0 22px 58px rgba(0, 0, 0, 0.28),
-      0 0 56px rgba(106, 239, 207, 0.22);
+      0 0 56px rgba(52, 230, 184, 0.24);
   }
 }
 
