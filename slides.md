@@ -16,6 +16,13 @@ routerMode: hash
 
 <section class="md-slide md-hero">
   <div class="md-brand">LinkerDog</div>
+  <div class="md-floating-symbols" aria-hidden="true">
+    <span style="left: 9%; animation-delay: 0s;">agent.run()</span>
+    <span style="left: 23%; animation-delay: 2.1s;">task.write()</span>
+    <span style="left: 51%; animation-delay: 4.2s;">memory.sync()</span>
+    <span style="left: 72%; animation-delay: 1.1s;">tool.call()</span>
+    <span style="left: 88%; animation-delay: 3.4s;">ship.now()</span>
+  </div>
   <div class="md-center">
     <h1 class="md-title md-title-mega">会中出活</h1>
     <p class="md-subtitle">让 agent 在会议里直接推进执行。</p>
@@ -33,6 +40,7 @@ routerMode: hash
     <div class="md-metric">
       <div class="md-metric-value">1000+</div>
       <div class="md-metric-label">tokens / second</div>
+      <div class="md-metric-track" aria-hidden="true"><span></span></div>
     </div>
     <div class="md-stack">
       <div class="md-card">
@@ -77,7 +85,7 @@ routerMode: hash
 
 ---
 
-<section class="md-slide">
+<section class="md-slide md-flow-slide">
   <div class="md-kicker">PRODUCT</div>
   <h1 class="md-title">LinkerDog 补上这个 gap</h1>
   <p class="md-subtitle">把会议里的信息，直接变成团队系统里的可执行状态。</p>
@@ -89,7 +97,7 @@ routerMode: hash
       <p>语音、发言人、决策点。</p>
     </div>
     <div class="md-arrow">→</div>
-    <div class="md-node md-node-hot">
+    <div class="md-node md-node-hot md-pulse">
       <span>Act</span>
       <strong>生成执行物</strong>
       <p>任务卡、负责人、截止时间、引用。</p>
@@ -186,6 +194,12 @@ routerMode: hash
 ---
 
 <section class="md-slide md-hero">
+  <div class="md-floating-symbols" aria-hidden="true">
+    <span style="left: 14%; animation-delay: 0.6s;">decision</span>
+    <span style="left: 36%; animation-delay: 2.7s;">owner</span>
+    <span style="left: 61%; animation-delay: 1.5s;">deadline</span>
+    <span style="left: 82%; animation-delay: 3.8s;">context</span>
+  </div>
   <div class="md-kicker">CLOSE</div>
   <div class="md-center">
     <h1 class="md-title">会议还没结束，任务已经开始</h1>

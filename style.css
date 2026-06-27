@@ -1116,8 +1116,9 @@
   --wa-card-strong: rgba(124, 106, 239, 0.09);
   --wa-border: rgba(255, 255, 255, 0.105);
   --wa-border-strong: rgba(124, 106, 239, 0.32);
-  --wa-font: "Space Grotesk", "Noto Sans CJK SC", "Noto Sans SC", system-ui, sans-serif;
-  --wa-mono: "JetBrains Mono", "Menlo", monospace;
+  --wa-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif;
+  --wa-display: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --wa-mono: "JetBrains Mono", "SFMono-Regular", "Menlo", "Consolas", monospace;
 }
 
 .slidev-layout {
@@ -1585,7 +1586,8 @@
   background: rgba(255, 255, 255, 0.06);
   padding: 0.45rem 0.9rem;
   color: var(--wa-muted);
-  font-weight: 800;
+  font-family: var(--wa-display);
+  font-weight: 700;
 }
 
 .md-center {
@@ -1608,11 +1610,12 @@
 }
 
 .md-title {
+  font-family: var(--wa-display);
   max-width: 62rem;
   margin: 0;
   font-size: 4rem;
   line-height: 1.08;
-  font-weight: 900;
+  font-weight: 800;
   letter-spacing: 0;
   background: linear-gradient(135deg, var(--wa-fg), var(--wa-accent), var(--wa-accent-2));
   -webkit-background-clip: text;
@@ -1625,12 +1628,13 @@
 }
 
 .md-subtitle {
+  font-family: var(--wa-display);
   max-width: 52rem;
   margin: 1rem 0 0;
   color: var(--wa-muted);
   font-size: 1.35rem;
   line-height: 1.55;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .md-center .md-subtitle {
@@ -1677,12 +1681,13 @@
 
 .md-card strong,
 .md-node strong {
+  font-family: var(--wa-display);
   display: block;
   margin-top: 0.8rem;
   color: var(--wa-fg);
   font-size: 1.45rem;
   line-height: 1.2;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .md-card p,
@@ -1692,7 +1697,7 @@
   color: var(--wa-dim);
   font-size: 1rem;
   line-height: 1.45;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .md-split {
@@ -1718,10 +1723,11 @@
 }
 
 .md-metric-value {
+  font-family: var(--wa-mono);
   color: var(--wa-accent-3);
   font-size: 5.4rem;
   line-height: 1;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .md-metric-label {
@@ -1748,14 +1754,15 @@
 .md-arrow {
   color: var(--wa-accent-3);
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .md-callout {
+  font-family: var(--wa-display);
   margin-top: 1.4rem;
   color: var(--wa-muted);
   font-size: 1.25rem;
-  font-weight: 900;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -1790,10 +1797,11 @@
 }
 
 .md-person strong {
+  font-family: var(--wa-display);
   display: block;
   color: var(--wa-fg);
   font-size: 1.6rem;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .md-compact-grid {
@@ -1802,4 +1810,360 @@
 
 .md-compact-grid .md-card {
   min-height: 7rem;
+}
+
+/* Working-with-ai inspired motion layer for the markdown deck. */
+.md-slide {
+  isolation: isolate;
+}
+
+.md-slide::before {
+  z-index: 0;
+  animation: mdGridDrift 28s linear infinite;
+}
+
+.md-slide::after {
+  content: "";
+  position: absolute;
+  inset: -18%;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    conic-gradient(
+      from 180deg at 50% 50%,
+      transparent 0deg,
+      rgba(106, 239, 207, 0.1) 70deg,
+      transparent 128deg,
+      rgba(239, 106, 154, 0.11) 220deg,
+      transparent 310deg
+    );
+  filter: blur(80px);
+  opacity: 0.42;
+  animation: mdAurora 18s ease-in-out infinite alternate;
+}
+
+.md-brand,
+.md-kicker,
+.md-title,
+.md-subtitle,
+.md-card,
+.md-node,
+.md-metric,
+.md-person,
+.md-callout {
+  animation: mdFadeUp 0.72s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.md-brand {
+  animation-delay: 0.04s;
+}
+
+.md-title {
+  animation-delay: 0.1s;
+}
+
+.md-subtitle {
+  animation-delay: 0.18s;
+}
+
+.md-grid .md-card:nth-child(1),
+.md-stack .md-card:nth-child(1),
+.md-team-row .md-person:nth-child(1),
+.md-flow .md-node:nth-child(1),
+.md-metric {
+  animation-delay: 0.26s;
+}
+
+.md-grid .md-card:nth-child(2),
+.md-stack .md-card:nth-child(2),
+.md-team-row .md-person:nth-child(2),
+.md-flow .md-node:nth-child(3) {
+  animation-delay: 0.36s;
+}
+
+.md-grid .md-card:nth-child(3),
+.md-flow .md-node:nth-child(5),
+.md-callout {
+  animation-delay: 0.46s;
+}
+
+.md-card,
+.md-node,
+.md-metric,
+.md-person {
+  border-radius: 8px;
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.18);
+  transition:
+    transform 0.24s ease,
+    border-color 0.24s ease,
+    background 0.24s ease,
+    box-shadow 0.24s ease;
+}
+
+.md-card:hover,
+.md-node:hover,
+.md-metric:hover,
+.md-person:hover {
+  transform: translateY(-4px);
+  border-color: rgba(106, 239, 207, 0.38);
+  background: rgba(255, 255, 255, 0.065);
+  box-shadow:
+    0 22px 58px rgba(0, 0, 0, 0.28),
+    0 0 0 1px rgba(106, 239, 207, 0.1),
+    0 0 36px rgba(124, 106, 239, 0.14);
+}
+
+.md-card-hot,
+.md-node-hot,
+.md-metric {
+  box-shadow:
+    0 22px 58px rgba(0, 0, 0, 0.24),
+    0 0 42px rgba(124, 106, 239, 0.12);
+}
+
+.md-floating-symbols {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.md-floating-symbols span {
+  position: absolute;
+  bottom: -4.5rem;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid rgba(106, 239, 207, 0.18);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.045);
+  color: rgba(106, 239, 207, 0.62);
+  font-family: var(--wa-mono);
+  font-size: 0.86rem;
+  font-weight: 800;
+  backdrop-filter: blur(8px);
+  white-space: nowrap;
+  animation: mdFloatUp 10s linear infinite;
+}
+
+.md-floating-symbols span:nth-child(2n) {
+  border-color: rgba(239, 106, 154, 0.18);
+  color: rgba(239, 106, 154, 0.58);
+  animation-duration: 12s;
+}
+
+.md-floating-symbols span:nth-child(3n) {
+  border-color: rgba(124, 106, 239, 0.2);
+  color: rgba(184, 174, 255, 0.58);
+  animation-duration: 14s;
+}
+
+.md-metric-track {
+  position: relative;
+  height: 0.55rem;
+  margin-top: 1.3rem;
+  overflow: hidden;
+  border: 1px solid var(--wa-border);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.md-metric-track span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--wa-accent), var(--wa-accent-2), var(--wa-accent-3));
+  transform-origin: left center;
+  animation: mdMetricFill 1.8s cubic-bezier(0.22, 1, 0.36, 1) 0.45s both;
+}
+
+.md-flow {
+  position: relative;
+}
+
+.md-flow::before {
+  content: "";
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  top: 50%;
+  z-index: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(106, 239, 207, 0.52), transparent);
+  transform: translateY(-50%);
+  opacity: 0.55;
+  animation: mdFlowBeam 2.8s ease-in-out infinite;
+}
+
+.md-flow > * {
+  position: relative;
+  z-index: 1;
+}
+
+.md-arrow {
+  animation: mdArrowPulse 1.8s ease-in-out infinite;
+}
+
+.md-flow .md-arrow:nth-child(4) {
+  animation-delay: 0.28s;
+}
+
+.md-pulse {
+  position: relative;
+  animation:
+    mdFadeUp 0.72s cubic-bezier(0.22, 1, 0.36, 1) 0.36s both,
+    mdPulseGlow 2.6s ease-in-out infinite;
+}
+
+.md-pulse::after {
+  content: "";
+  position: absolute;
+  inset: -0.6rem;
+  border: 1px solid rgba(106, 239, 207, 0.28);
+  border-radius: 12px;
+  pointer-events: none;
+  opacity: 0;
+  animation: mdRingPulse 2.6s ease-in-out infinite;
+}
+
+@keyframes mdFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes mdGridDrift {
+  from {
+    background-position: 0 0, 0 0;
+  }
+  to {
+    background-position: 120px 60px, 120px 60px;
+  }
+}
+
+@keyframes mdAurora {
+  from {
+    transform: translate3d(-2%, -1%, 0) rotate(-8deg) scale(1);
+    opacity: 0.34;
+  }
+  to {
+    transform: translate3d(2%, 1%, 0) rotate(8deg) scale(1.08);
+    opacity: 0.48;
+  }
+}
+
+@keyframes mdFloatUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 0, 0) rotate(-2deg);
+  }
+  12% {
+    opacity: 1;
+  }
+  82% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(0, -118vh, 0) rotate(8deg);
+  }
+}
+
+@keyframes mdMetricFill {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes mdFlowBeam {
+  0%, 100% {
+    opacity: 0.24;
+    transform: translateY(-50%) scaleX(0.86);
+  }
+  50% {
+    opacity: 0.7;
+    transform: translateY(-50%) scaleX(1);
+  }
+}
+
+@keyframes mdArrowPulse {
+  0%, 100% {
+    opacity: 0.55;
+    transform: translateX(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(4px);
+  }
+}
+
+@keyframes mdPulseGlow {
+  0%, 100% {
+    box-shadow:
+      0 22px 58px rgba(0, 0, 0, 0.24),
+      0 0 28px rgba(106, 239, 207, 0.08);
+  }
+  50% {
+    box-shadow:
+      0 22px 58px rgba(0, 0, 0, 0.28),
+      0 0 56px rgba(106, 239, 207, 0.22);
+  }
+}
+
+@keyframes mdRingPulse {
+  0% {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  42% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.07);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-slide::before,
+  .md-slide::after,
+  .md-brand,
+  .md-kicker,
+  .md-title,
+  .md-subtitle,
+  .md-card,
+  .md-node,
+  .md-metric,
+  .md-person,
+  .md-callout,
+  .md-floating-symbols span,
+  .md-metric-track span,
+  .md-flow::before,
+  .md-arrow,
+  .md-pulse,
+  .md-pulse::after {
+    animation: none !important;
+  }
+
+  .md-card,
+  .md-node,
+  .md-metric,
+  .md-person {
+    transition: none !important;
+  }
+
+  .md-card:hover,
+  .md-node:hover,
+  .md-metric:hover,
+  .md-person:hover {
+    transform: none;
+  }
 }
